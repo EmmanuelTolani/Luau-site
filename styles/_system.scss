@@ -1,0 +1,28 @@
+
+/////System page styles 
+
+.system{
+    padding: 1rem 0;
+    h2{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .system-img{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        height: 80vh;
+        padding: 2rem 0 4rem;
+        img{
+            width:100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__explanation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

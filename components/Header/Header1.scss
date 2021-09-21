@@ -1,0 +1,200 @@
+.header1 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #fcfcfc;
+  ///header container
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    height: 100px;
+    width: 1367px;
+    color: #1b1b1b;
+  }
+  a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #2c2952;
+    font-weight: 500;
+    &:hover {
+      color: #49b1f2;
+    }
+  }
+  &__collections-nav {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .close-bar {
+      display: none;
+    }
+    a {
+      animation-name: slide-down;
+      animation-duration: 0.6s;
+      animation-timing-function: ease-in-out;
+      animation-delay: -0.6;
+      padding: 25px 25px 20px;
+      font-size: 1rem;
+    }
+    .email-btn {
+      color: #49b1f2;
+      cursor: pointer;
+      border: 1px solid #c8c8c8;
+      border-radius: 4px;
+      cursor: pointer;
+      padding: 6px 6px;
+      font-size: 14px;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+  }
+  &__logo {
+    a {
+      animation-name: slide-right;
+      animation-duration: 0.7s;
+      animation-timing-function: ease-in-out;
+      font-size: clamp(1.5rem, 0.8748rem + 1.318vw, 2rem);
+      font-family: "Oswald", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  ///// mobile header 
+  &__menu-btn {
+    display: none;
+  }
+  &__collections-mobile-nav{
+    background-color: #49b1f2;
+    transform: translate(-2000px, 0);
+    z-index: 2;
+    padding: 50px 0px 0px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    ul {
+      width: 200%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 30px 0;
+    }
+    li {
+      padding: 30px 0;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        a {
+          color: white;
+        }
+      }
+    }
+    a {
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-size: 1.9rem;
+      font-weight: 500;
+    }
+  }
+ 
+////animations 
+  @keyframes slide-right {
+    from {
+      transform: translate(-200px, 0);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-down {
+    from {
+      transform: translate(0, -100px);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .header1 {
+    height: 100%;
+    &__collections-nav {
+      display: none;
+      height: 100%;
+    }
+    &__mobile {
+      display: block;
+    }
+    &__logo {
+      a {
+        animation-name: slide-right;
+        animation-duration: 0.7s;
+        animation-timing-function: ease-in-out;
+        font-size: 1.5rem;
+        font-family: "Oswald", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    &__menu-btn {
+      background-color: unset;
+      cursor: pointer;
+      font-size: 1.5rem;
+      display: block;
+      outline: none;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      border-radius: 2px;
+      font-size: 14px;
+      color: #000000;
+      padding: 8px 36px 9px;
+      border: 1px solid #c8c8c8;
+      border-radius: 3px;
+    }
+    &__menu-close {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background-color: unset;
+      background: red;
+      cursor: pointer;
+      font-size: 1.5rem;
+      display: block;
+      outline: none;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      border-radius: 2px;
+      font-size: 1.5rem;
+      color: white;
+      padding: 8px 36px 9px;
+      border: 1px solid #c8c8c8;
+      border-radius: 3px;
+    }
+  }
+  .active{
+    .header1__collections-mobile-nav {
+      transform: translate(0, 0);
+      visibility: visible;
+      display: flex;
+    }
+    .header1__container {
+      visibility: hidden;
+      display: none;
+    }
+  }
+}

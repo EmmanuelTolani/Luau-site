@@ -1,0 +1,25 @@
+@use './reset';
+@use '../components/components';
+@use './home';
+@use './about';
+@use './case-studys';
+@use './contact';
+@use './products';
+@use './system';
+
+
+body{
+    background-color: #ffff;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    
+}
+main{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+
+
+
