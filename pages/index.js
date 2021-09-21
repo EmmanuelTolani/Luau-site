@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import MainLayout from '../components/layouts/MainLayout'
-import AlternateLayout from '../components/layouts/alternateLayout'
+import AlternateLayout from '../components/layouts/AlternateLayout'
 import Link from 'next/link';
 
 export default function Home() {

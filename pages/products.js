@@ -1,7 +1,7 @@
 import Head from "next/head";
 import MainLayout from "../components/layouts/MainLayout";
 import Hero from "../components/Hero/Hero";
-import AlternateLayout from '../components/layouts/alternateLayout'
+import AlternateLayout from '../components/layouts/AlternateLayout'
 
 export default function Home() {
   return (
