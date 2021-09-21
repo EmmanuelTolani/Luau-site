@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from 'next/link'
 
 export default function Header() {
   const [isClicked, setClicked] = useState(false);
@@ -15,15 +16,47 @@ export default function Header() {
           </div>
           <ul className="header1__collections-nav">
             <li>
-              <a href="/eyesonsite" className={isClicked ? "active" : null}>
+              <Link href="/eyesonsite">
+              <a>
                 Overview
               </a>
-              <a href="/system">System</a>
-              <a href="/products">Products</a>
-              <a href="/case-study">Case Study</a>
-              <a href="/about">About</a>
-              <a href="/contact">Contact</a>
-            </li>
+              </Link>
+              </li>
+              <li>
+              <Link href="/system">
+              <a>
+                System
+              </a>
+              </Link>
+              </li>
+              <li>
+              <Link href="/products">
+              <a>
+                Products
+              </a>
+              </Link>
+              </li>
+              <li>
+              <Link href="/case-study">
+              <a>
+                Case Study
+              </a>
+              </Link>
+              </li>
+              <li>
+              <Link href="/about">
+              <a>
+                About
+              </a>
+              </Link>
+              </li>
+              <li>
+              <Link href="/contact">
+              <a>
+                Contact
+              </a>
+              </Link>
+              </li>
           </ul>
           <div>
             <button type="" className="header1__menu-btn" onClick={toggleClass}>
@@ -39,26 +72,48 @@ export default function Header() {
           </button>
         </div>
         <ul>
-          <li>
-            <a href="/eyesonsite" className={isClicked ? "active" : null}>
-              Overview
-            </a>
-          </li>
-          <li>
-            <a href="/system">System</a>
-          </li>
-          <li>
-            <a href="/products">Products</a>
-          </li>
-          <li>
-            <a href="/case-study">Case Study</a>
-          </li>
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
+        <li>
+              <Link href="/eyesonsite">
+              <a>
+                Overview
+              </a>
+              </Link>
+              </li>
+              <li>
+              <Link href="/system">
+              <a>
+                System
+              </a>
+              </Link>
+              </li>
+              <li>
+              <Link href="/products">
+              <a>
+                Products
+              </a>
+              </Link>
+              </li>
+              <li>
+              <Link href="/case-study">
+              <a>
+                Case Study
+              </a>
+              </Link>
+              </li>
+              <li>
+              <Link href="/about">
+              <a>
+                About
+              </a>
+              </Link>
+              </li>
+              <li>
+              <Link href="/contact">
+              <a>
+                Contact
+              </a>
+              </Link>
+              </li>
         </ul>
       </div>
     </>
