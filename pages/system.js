@@ -10,7 +10,7 @@ export default function Home() {
       <>
       <section className="system">
         <h2>
-        The Eyes on Site&trade; System
+        {`The Eyes on Site System`}
         </h2>
         <div className="system-img">
           <img src="../src/img/website-images/system-diagram.png" />

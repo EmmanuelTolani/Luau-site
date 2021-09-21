@@ -26,7 +26,7 @@ export default function Home() {
                 </div>
                 <div className="about-info">
                     <p>
-                      Stuart Lomas is CEO and co-founder of Luau Data Corporation, supplying Remote Awareness products for industry and public works. Stuart has previous experience in technology products in Canada, the US and Europe including at General Electric, Hewlett Packard, and Matrikon, now owned by HoneyWell. Stuarts experience with distributed operations in the global energy led to the creation of Eyes On Site&trade;, a simple and affordable remote awareness product that exploits technology convergence in solar energy, wireless Internet of Things, Analytics and Big Data, and demand for improved productivity and security in remote and distributed operations ranging from oil wells to vehivle traffic.
+                      Stuart Lomas is CEO and co-founder of Luau Data Corporation, supplying Remote Awareness products for industry and publ ic works. Stuart has previous experience in technology products in Canada, the US and Europe including at General Electric, Hewlett Packard, and Matrikon, now owned by HoneyWell. Stuarts experience with distributed operations in the global energy led to the creation of Eyes On Site&trade;, a simple and affordable remote awareness product that exploits technology convergence in solar energy, wireless Internet of Things, Analytics and Big Data, and demand for improved productivity and security in remote and distributed operations ranging from oil wells to vehivle traffic.
                       Stuart holds a B.Sc in Computing Science, an MBA, and coaches entrepreneurs at the University of Alberta's Venture Mentoring Service. 
                     </p>
                 </div>

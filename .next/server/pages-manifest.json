@@ -1,6 +1,14 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/api/hello": "pages/api/hello.js",
+  "/case-study": "pages/case-study.html",
+  "/contact": "pages/contact.html",
+  "/eyesonsite": "pages/eyesonsite.html",
+  "/": "pages/index.html",
+  "/products": "pages/products.html",
+  "/system": "pages/system.html",
   "/_error": "pages/_error.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }

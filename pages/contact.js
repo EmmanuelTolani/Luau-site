@@ -19,7 +19,7 @@ export default function Home() {
             <span>T6E 4Z1</span>
           </div>
           <div className="contact__map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.654491913431!2d-113.47392778425404!3d53.49250298000992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a018b8f78aeed9%3A0xbae45a17d6aa088e!2sLuau%20Data%20Corp!5e0!3m2!1sen!2sca!4v1631893046598!5m2!1sen!2sca" style={{ border:"0"}} allowfullscreen="" loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.654491913431!2d-113.47392778425404!3d53.49250298000992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a018b8f78aeed9%3A0xbae45a17d6aa088e!2sLuau%20Data%20Corp!5e0!3m2!1sen!2sca!4v1631893046598!5m2!1sen!2sca" style={{ border:"0"}} allowFullSscreen="" loading="lazy"></iframe>
           </div>
         </section>
       </>

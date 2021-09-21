@@ -1,14 +1,20 @@
+import Link from 'next/link'
+
 export default function Footer() {
     return (
      <footer>
          <div className="footer-container">
          <div className="footer_links">
-         <a href="/">
+        <Link href="/" >
+         <a >
              Terms Of Services
          </a>
-         <a href="/">
+         </Link>
+         <Link href="/">
+         <a >
              Privacy Policy
          </a>
+         </Link>
          </div>
         <div className="footer-trademark">
         <h1>

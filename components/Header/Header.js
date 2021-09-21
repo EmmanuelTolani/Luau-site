@@ -12,7 +12,9 @@ export default function Header() {
       <header className="header header1">
         <div className="header1__container">
           <div className="header1__logo">
-            <a href="/">Luau Data Corporation</a>
+            <Link href="/">
+            <a >Luau Data Corporation</a>
+            </Link>
           </div>
           <ul className="header1__collections-nav">
             <li>

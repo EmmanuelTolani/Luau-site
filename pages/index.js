@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import MainLayout from '../components/layouts/MainLayout'
 import AlternateLayout from '../components/layouts/alternateLayout'
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -22,7 +23,9 @@ export default function Home() {
             </p>
             <span>1. Reduce Windshield Time</span>
             <span>2. Track construction progress </span>
-            <a href="/">Read More</a>
+            <Link href="/">
+            <a >Read More</a>
+            </Link>
           </div>
           <div className="main-services__service">
           <div className="main-services__img-container">
@@ -34,7 +37,9 @@ export default function Home() {
             </p>
             <span>1. Reduce Windshield Time</span>
             <span>2. Track construction progress </span>
-            <a href="/">Read More</a>
+            <Link href="/">
+            <a >Read More</a>
+            </Link>
           </div>
           <div className="main-services__service">
           <div className="main-services__img-container">
@@ -46,7 +51,10 @@ export default function Home() {
             </p>
             <span>1. Reduce Windshield Time</span>
             <span>2. Track construction progress </span>
-            <a href="/">Read More</a>
+            
+            <Link href="/">
+            <a >Read More</a>
+            </Link>
           </div>
           <div className="main-services__service">
             <div className="main-services__img-container">
@@ -58,7 +66,9 @@ export default function Home() {
             </p>
             <span>1. Reduce Windshield Time</span>
             <span>2. Track construction progress </span>
-            <a href="/">Read More</a>
+            <Link href="/">
+            <a >Read More</a>
+            </Link>
           </div>
         </div>
       </section>
