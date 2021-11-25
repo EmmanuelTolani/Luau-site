@@ -13,7 +13,7 @@ export default function Header() {
         <div className="header1__container">
           <div className="header1__logo">
             <Link href="/">
-            <a >Luau Data Corporation</a>
+            <a><img src="../src/img/website-images/logo-image-s.png" height={80} /> <img src="../src/img/website-images/logo-text.png" height={30} width={300}/> </a>
             </Link>
           </div>
           <ul className="header1__collections-nav">

@@ -56,11 +56,14 @@
     }
   }
   &__logo {
+    img{
+      padding-right: 10px;
+    }
     a {
       animation-name: slide-right;
       animation-duration: 0.7s;
       animation-timing-function: ease-in-out;
-      font-size: clamp(1.5rem, 0.8748rem + 1.318vw, 2rem);
+      font-size: clamp(.8rem, 0.8748rem + 1.318vw, 1.2rem);
       font-family: "Oswald", sans-serif;
       display: flex;
       justify-content: center;
