@@ -8,28 +8,28 @@ export default function Footer() {
         <li>
         <Link href="/" >
          <a>
-             <i class="fab fa-linkedin"></i>
+             <i className="fab fa-linkedin"></i>
          </a>
          </Link>
          </li>
          <li>
          <Link href="/">
          <a >
-             <i class="fab fa-facebook-f"></i>
+             <i className="fab fa-facebook-f"></i>
          </a>
          </Link>
          </li>
          <li>
          <Link href="/">
          <a >
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
          </a>
          </Link>
          </li>
          <li>
          <Link href="/">
          <a >
-         <i class="fab fa-twitter"></i>
+         <i className="fab fa-twitter"></i>
          </a>
          </Link>
          </li>
