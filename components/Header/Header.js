@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Link from 'next/link'
+import SubHeader from "./SubHeader/SubHeader";
 
 export default function Header() {
   const [isClicked, setClicked] = useState(false);
@@ -9,13 +10,17 @@ export default function Header() {
   };
   return (
     <>
+    <SubHeader/>
       <header className="header header1">
         <div className="header1__container">
+          {/* The header logo section starts */}
           <div className="header1__logo">
             <Link href="/">
-            <a><img src="../src/img/website-images/logo-image-s.png" height={80} /> <img src="../src/img/website-images/logo-text.png" height={30} width={300}/> </a>
+            <a><img src="../src/img/website-images/logo-image-s.png" height={60} /> <img src="../src/img/website-images/logo-text.png" height={20} width={200}/> </a>
             </Link>
           </div>
+          {/* The header logo section ends */}
+          {/* The header links section starts */}
           <ul className="header1__collections-nav">
             <li>
               <Link href="/eyesonsite">
@@ -45,7 +50,7 @@ export default function Header() {
               </a>
               </Link>
               </li>
-              <li>
+              {/* <li>
               <Link href="/about">
               <a>
                 About
@@ -58,15 +63,19 @@ export default function Header() {
                 Contact
               </a>
               </Link>
-              </li>
+              </li> */}
           </ul>
-          <div>
+          {/* The header link section ends */}
+          {/* The button section starts */}
+          <div className="header1__menu-btn-container">
             <button type="" className="header1__menu-btn" onClick={toggleClass}>
               MENU
             </button>
           </div>
+          {/* The button section ends */}
         </div>
       </header>
+      {/* The Mobile menu start */}
       <div className="header1__collections-mobile-nav active">
         <div>
           <button type="" className="header1__menu-close">
@@ -118,6 +127,7 @@ export default function Header() {
               </li>
         </ul>
       </div>
+      {/* The Mobile Menu End */}
     </>
   );
 }

@@ -1,19 +1,18 @@
 .header1 {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  // box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  //   rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  //   rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   width: 100%;
   display: flex;
   justify-content: center;
-  background: #fcfcfc;
+  // background: #fcfcfc;
   ///header container
   &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 40px;
-    height: 100px;
-    width: 1367px;
+    padding: 5px 0;
+    width: 1140px;
     color: #1b1b1b;
   }
   a {
@@ -22,14 +21,14 @@
     color: #2c2952;
     font-weight: 500;
     &:hover {
-      color: #49b1f2;
+      color: #027582;
     }
   }
   &__collections-nav {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     .close-bar {
@@ -42,6 +41,7 @@
       animation-delay: -0.6;
       padding: 25px 25px 20px;
       font-size: 1rem;
+      font-weight: 600;
     }
     .email-btn {
       color: #49b1f2;
@@ -60,9 +60,9 @@
       padding-right: 10px;
     }
     a {
-      animation-name: slide-right;
-      animation-duration: 0.7s;
-      animation-timing-function: ease-in-out;
+      // animation-name: slide-right;
+      // animation-duration: 0.7s;
+      // animation-timing-function: ease-in-out;
       font-size: clamp(.8rem, 0.8748rem + 1.318vw, 1.2rem);
       font-family: "Oswald", sans-serif;
       display: flex;
@@ -71,6 +71,9 @@
     }
   }
   ///// mobile header 
+  &__menu-btn-container{
+    display: none;
+  }
   &__menu-btn {
     display: none;
   }

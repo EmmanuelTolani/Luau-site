@@ -1,10 +1,10 @@
 footer{
     margin-top: 100px;
-    background: #0A79C9;
+    background: #027582;
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    height: 120px;
+    height: 150px;
     position: relative;
     bottom: 0;
     left:0;
@@ -12,7 +12,7 @@ footer{
     display: flex;
     width: 100%;
     .footer-container{
-        width: 1366px;
+        width: 1140px;
         display: flex;
         flex-direction: column;
       justify-content: space-evenly;
@@ -21,10 +21,11 @@ footer{
     .footer_links{
         display: flex;
         flex-direction: row;
-        gap: 5rem;
+        gap: 4rem;
         a{
             text-decoration: none;
             color: white;
+            font-size: 30px;
         }
     }
     .footer-trademark{
