@@ -15,7 +15,7 @@ export default function Home() {
       <section className="main-services">
          <h2 className="main-services__title">What we do</h2>
         <div className="main-services__container">
-          <div className="main-services__service">
+          {/* <div className="main-services__service">
             <div className="main-services__img-container">
               <img src="https://images.pexels.com/photos/162568/oil-pump-jack-sunset-clouds-silhouette-162568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
             </div>
@@ -28,12 +28,12 @@ export default function Home() {
             <Link href="/">
             <a >Read More</a>
             </Link>
-          </div>
+          </div> */}
           <div className="main-services__service">
           <div className="main-services__img-container">
               <img src="https://images.pexels.com/photos/4170184/pexels-photo-4170184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
             </div>
-            <h2 className="main-services__service-header">Project Managment</h2>
+            <h2 className="main-services__service-header">Construction Managment</h2>
             <p className="main-services__service-subtitle">
               Track remote environmental conditions - wildfires, floods, snowfalls, and more , without leaving your office.
             </p>
@@ -49,16 +49,16 @@ export default function Home() {
             </div>
             <h2 className="main-services__service-header">Environmental Remediation</h2>
             <p className="main-services__service-subtitle">
-              Track remote environmental conditions - wildfires, floods, snowfalls, and more , without leaving your office.
+              Track the progress of your site for years remotely, prevent hazards .
             </p>
             <span>1. Reduce Windshield Time</span>
-            <span>2. Track construction progress </span>
+            <span>2. Quickly Respond to Hazards </span>
             
             <Link href="/">
             <a >Read More</a>
             </Link>
           </div>
-          {/* <div className="main-services__service">
+          <div className="main-services__service">
             <div className="main-services__img-container">
               <img src="https://images.pexels.com/photos/162568/oil-pump-jack-sunset-clouds-silhouette-162568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
             </div>
@@ -71,7 +71,7 @@ export default function Home() {
             <Link href="/">
             <a >Read More</a>
             </Link>
-          </div> */}
+          </div>
         </div>
       </section>
       <section className="main-why">
@@ -81,7 +81,7 @@ export default function Home() {
         <div className="main-why__text">
           <h2>Why Luau Data</h2>
           <p>
-             Luau data remote monitoring systems enable you to remotely monitor, access, your site from remote locations. Our system utilizes solar energy, cameras, and sensors 24/7 to deliver information about your site. It provides you with all the data needed to remotely manage your site without cords and extra equipment. Luau's reliable and cost-effecctive solutions are the best choice of climate change specialist, construction managment, governents, and environmental remediation specialist.
+             Luau data remote monitoring systems enable you to remotely monitor, access, your site from remote locations. Our system utilizes solar energy, cameras, and sensors 24/7 to deliver information about your site. It provides you with all the data needed to remotely manage your site without cords and extra equipment. Luau's reliable and cost-effecctive solutions are the best choice for climate change specialist, construction managment, governents, and environmental remediation specialist.
           </p>
         </div>
       </section>

@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/eyesonsite": "pages/eyesonsite.js",
-  "/system": "pages/system.js",
-  "/": "pages/index.js",
-  "/products": "pages/products.js"
+  "/": "pages/index.js"
 }
