@@ -42,10 +42,20 @@
                 text-align: left;
                 margin-bottom: 1.5rem;
             }
-            
+            &__button-container{
+                display: flex;
+                gap: 25px;
+            }
             &__button{
                 text-align: center;
                 background: #5BD96E;
+                color: white;
+                padding: 10px 40px;
+                cursor: pointer;
+            }
+            &__button1{
+                text-align: center;
+                background: orange;
                 color: white;
                 padding: 10px 40px;
                 cursor: pointer;

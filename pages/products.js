@@ -1,7 +1,8 @@
 import Head from "next/head";
 import MainLayout from "../components/layouts/MainLayout";
 import Hero from "../components/Hero/Hero";
-import AlternateLayout from '../components/layouts/AlternateLayout'
+import AlternateLayout from '../components/layouts/AlternateLayout';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -18,7 +19,12 @@ export default function Home() {
               <p>
                 A Camera unit with connection to the cell network. Available in two versions master and satelite. 
               </p>
+              <div className="product-info__button-container">
               <button className="product-info__button">Learn More</button>
+              <Link href="https://luau-data.myshopify.com/products/eos200-field-unit">
+              <button className="product-info__button1">Buy Now</button>
+              </Link>
+              </div>
             </div>
           </div>
           <div className="product-2">
@@ -29,7 +35,12 @@ export default function Home() {
               }}>
                 This unit can recognize motion and other special cases.
               </p>
+              <div className="product-info__button-container">
               <button className="product-info__button">Learn More</button>
+              <Link href="https://luau-data.myshopify.com/products/eos200-field-unit">
+              <button className="product-info__button1">Buy Now</button>
+              </Link>
+              </div>
             </div>
             <div className="product-img">
               <img src="../src/img/website-images/DSCF1916.jpg"></img>
@@ -44,7 +55,12 @@ export default function Home() {
               <p>
                 This unit can recognize motion and can light a scene for night time pictures
               </p>
+              <div className="product-info__button-container">
               <button className="product-info__button">Learn More</button>
+              <Link href="https://luau-data.myshopify.com/products/eos200-field-unit">
+              <button className="product-info__button1">Buy Now</button>
+              </Link>
+              </div>
             </div>
           </div>
         </section>

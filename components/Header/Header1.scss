@@ -5,23 +5,37 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  // background: #fcfcfc;
-  ///header container
+  position: sticky;
+  top:0;
+  z-index: 200;
+  background-color: rgba(0,0,0,.5);
   &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 0;
+  
     width: 1140px;
     color: #1b1b1b;
   }
   a {
     text-decoration: none;
-    font-family: sans-serif;
-    color: #2c2952;
-    font-weight: 500;
+    color: white;
+    font-size: 1rem;
+      font-weight: 300;
+      font-family: 'Share', cursive;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 1.7rem;
     &:hover {
-      color: #027582;
+    
+      text-decoration: underline;
+      text-decoration-color: #027582;
+      text-decoration-thickness: 2px;
+      line-height: 1.7rem;
+    }
+    &:after{
+      width: 91px;
+      
     }
   }
   &__collections-nav {
@@ -40,8 +54,7 @@
       animation-timing-function: ease-in-out;
       animation-delay: -0.6;
       padding: 25px 25px 20px;
-      font-size: 1rem;
-      font-weight: 600;
+      
     }
     .email-btn {
       color: #49b1f2;

@@ -5,7 +5,6 @@ export default function MainLayout(props) {
   return (
     <div>
       <Header />
-      <VideoHero />
       <main>{props.children}</main>
       <Footer />
     </div>

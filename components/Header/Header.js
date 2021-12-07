@@ -10,7 +10,7 @@ export default function Header() {
   };
   return (
     <>
-    <SubHeader/>
+    {/* <SubHeader/> */}
       <header className="header header1">
         <div className="header1__container">
           {/* The header logo section starts */}
@@ -57,13 +57,14 @@ export default function Header() {
               </a>
               </Link>
               </li>
+              */}
               <li>
               <Link href="/contact">
               <a>
                 Contact
               </a>
               </Link>
-              </li> */}
+              </li> 
           </ul>
           {/* The header link section ends */}
           {/* The button section starts */}
