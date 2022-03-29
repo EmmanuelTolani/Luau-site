@@ -1,11 +1,15 @@
 import Head from "next/head";
 import MainLayout from "../components/layouts/MainLayout";
 import Hero from "../components/Hero/Hero";
-import AlternateLayout from '../components/layouts/AlternateLayout'
+import AlternateLayout from "../components/layouts/AlternateLayout";
 
 export default function Home() {
   return (
-    <AlternateLayout title="Case Studies" bG="https://pcacdn.azureedge.net/-/media/lhn-nhs/canaux-canal/refresh-2021/canal-trent-severn-1138.jpg?modified=20210203190038"  color="white" >
+    <AlternateLayout
+      title="Case Studies"
+      bG="https://pcacdn.azureedge.net/-/media/lhn-nhs/canaux-canal/refresh-2021/canal-trent-severn-1138.jpg?modified=20210203190038"
+      color="white"
+    >
       <Head></Head>
       <>
         <section className="case-studys">
@@ -30,9 +34,11 @@ export default function Home() {
           <div className="case-study-2">
             <div className="case-study-info">
               <h3>Mcdougall Church</h3>
-              <p style={{
-                textAlign: 'center'
-              }}>
+              <p
+                style={{
+                  textAlign: "center",
+                }}
+              >
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -67,10 +73,12 @@ export default function Home() {
           </div>
           <div className="case-study-4">
             <div className="case-study-info">
-              <h3>Oilfield  Operations</h3>
-              <p style={{
-                textAlign: 'center'
-              }}>
+              <h3>Oilfield Operations</h3>
+              <p
+                style={{
+                  textAlign: "center",
+                }}
+              >
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris

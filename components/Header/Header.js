@@ -50,6 +50,20 @@ export default function Header() {
               </a>
               </Link>
               </li>
+              <li>
+              <Link href="/applications">
+              <a>
+                Applications
+              </a>
+              </Link>
+              </li>
+              <li>
+              <Link href="/device">
+              <a>
+                Device
+              </a>
+              </Link>
+              </li>
               {/* <li>
               <Link href="/about">
               <a>
@@ -58,13 +72,13 @@ export default function Header() {
               </Link>
               </li>
               */}
-              <li>
+              {/* <li>
               <Link href="/contact">
               <a>
                 Contact
               </a>
               </Link>
-              </li> 
+              </li>  */}
           </ul>
           {/* The header link section ends */}
           {/* The button section starts */}

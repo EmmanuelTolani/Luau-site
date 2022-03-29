@@ -1,45 +1,58 @@
 import Head from "next/head";
 import MainLayout from "../components/layouts/MainLayout";
 import Hero from "../components/Hero/Hero";
-import AlternateLayout from '../components/layouts/AlternateLayout'
+import AlternateLayout from "../components/layouts/AlternateLayout";
 
 export default function Home() {
   return (
-    <AlternateLayout title="Eyes On Site&trade;" bG="https://images.pexels.com/photos/4609259/pexels-photo-4609259.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"  color="white" >
+    <AlternateLayout
+      title="Eyes On Site&trade;"
+      bG="https://images.pexels.com/photos/4609259/pexels-photo-4609259.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      color="white"
+    >
       <Head></Head>
       <>
-      <section className="products">
-      <div className="product-1">
+        <section className="field-tested">
+          <h3>Field tested since 2016</h3>
+          <div>left arrow</div>
+          <div>
+            <img></img>
+            <p>
+              <span>Trusted by: </span>Parks Canada Civil Infrastructure
+            </p>
+            <div>right arrow</div>
+          </div>
+        </section>
+        <section className="products">
+          <div className="product-1">
             <div className="product-img">
               <img src="../src/img/website-images/map-eyes.png"></img>
             </div>
             <div className="product-info">
-              <h3>Monitor and manage multiple sites remotely</h3>
+              <h3>
+                Surveillance and Monitoring for outdoor sites with no electrical
+                power.
+              </h3>
               <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum."
+                solar cameras and sensors run day and night no external
+                connections, mount on any post, rail or tree branch all weather,
+                all seasons, works in rain, snow, hail or blistering heat
               </p>
               <button className="product-info__button">Learn More</button>
             </div>
           </div>
           <div className="product-2">
             <div className="product-info">
-              <h3>Wireless and Solar Powered Network of your site available on your device</h3>
-              <p style={{
-                textAlign: 'center'
-              }}>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum."
+              <h3>Solar-powered cameras and sensors connected to the cloud.</h3>
+              <p
+                style={{
+                  textAlign: "center",
+                }}
+              >
+                See your outdoor site on any web browser or mobile device Get
+                pictures and video clips triggered by time, nearby motion, or
+                defined sensor events Record sensor data including motion,
+                sunlight, temperature, and specialty sensors
               </p>
               <button className="product-info__button">Learn More</button>
             </div>
@@ -47,20 +60,45 @@ export default function Home() {
               <img src="https://i.stack.imgur.com/y9DpT.jpg"></img>
             </div>
           </div>
-          <div className="product-3"> 
+          <div className="product-3">
             <div className="product-img">
               <img src="../src/img/website-images/eyesonsite.png"></img>
             </div>
             <div className="product-info">
-              <h3>A Complete Record of Your Site</h3>
+              <h3>A sensor network wherever you put it! </h3>
               <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum."
+                Cameras and sensors self-organize to move their data Choose
+                zero, one or multiple cloud uplinks per site Uplink to the cloud
+                via cell network, local wifi, or drive-by wireless to a mobile
+                device
+              </p>
+              <button className="product-info__button">Learn More</button>
+            </div>
+          </div>
+          <div className="product-3">
+            <div className="product-img">
+              <img src="../src/img/website-images/eyesonsite.png"></img>
+            </div>
+            <div className="product-info">
+              <h3>Scalable! Manage sites and regions geographically </h3>
+              <p>
+                Devices locate and map themselves by GPS Manage any number of
+                devices by list or map Define your own geographical regions and
+                sites
+              </p>
+              <button className="product-info__button">Learn More</button>
+            </div>
+          </div>
+          <div className="product-3">
+            <div className="product-img">
+              <img src="../src/img/website-images/eyesonsite.png"></img>
+            </div>
+            <div className="product-info">
+              <h3>Safe, Secure and Reliable</h3>
+              <p>
+                Wireless data is DES encrypted Devices validate each other with
+                PKI key pairs For hazardous sites, Safety Certified devices
+                available for Zone 1 and Zone 2
               </p>
               <button className="product-info__button">Learn More</button>
             </div>
