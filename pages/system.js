@@ -11,8 +11,7 @@ export default function Home() {
             Eyes On Sitetm is a system of outdoor cameras and sensors that you
             can deploy anywhere and view from anywhere.
           </h2>
-        </section>
-        <section>
+          <section>
           <h2>EOS Field Devices: Intelligent Cameras and Sensors </h2>
           <p>
             EOS Field Devices are solar-powered cameras and sensors for your
@@ -61,6 +60,8 @@ export default function Home() {
           <h2>Data Display: Your Mobile Screen</h2>
           <div className="system-img">desktop pictures</div>
         </section>
+        </section>
+        
       </>
     </SystemLayout>
   );
