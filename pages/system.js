@@ -39,33 +39,33 @@ export default function Home() {
               </p>
               </div>
               <div className="allspecs"> 
-              <div class="specs-container">
-                <div class="spec one" >
-                <i class="fa-solid fa-sun"></i>
-                  <div class="spec-text">
+              <div className="specs-container">
+                <div className="spec one" >
+                <i className="fa-solid fa-sun"></i>
+                  <div className="spec-text">
                     <h6>Solar Powered  cameras and sensors</h6>
                     <h5>0 wires </h5>
                     </div>
                     </div>
-                    <div class="spec two" >
-                    <i class="fa-solid fa-tower-broadcast"></i>
-                      <div class="spec-text">
+                    <div className="spec two" >
+                    <i className="fa-solid fa-tower-broadcast"></i>
+                      <div className="spec-text">
                         <h6>Communication Distance</h6>
                         <h5>100m line-of-sight</h5>
                       </div>
                         </div>
                 </div>
-                <div class="specs-container">
-                  <div class="spec three">
-                  <i class="fa-solid fa-lock"></i>
-                    <div class="spec-text">
+                <div className="specs-container">
+                  <div className="spec three">
+                  <i className="fa-solid fa-lock"></i>
+                    <div className="spec-text">
                       <h6>Secure and Encrypted</h6>
                       <h5>100% privacy</h5>
                       </div>
                       </div>
-                      <div class="spec four">
-                      <i class="fa-solid fa-cloud"></i>
-                        <div class="spec-text">
+                      <div className="spec four">
+                      <i className="fa-solid fa-cloud"></i>
+                        <div className="spec-text">
                           <h6>Managed server and storage</h6>
                           <h5>24/7 access</h5>
                           </div>
@@ -89,8 +89,8 @@ export default function Home() {
               <p>EOS Field Devices: Intelligent Cameras and Sensors </p>
             </div>
             <div className="systemdetails-icons">
-            <i class="fa-solid fa-tower-broadcast"></i>
-            <i class="fa-solid fa-sun"></i>
+            <i className="fa-solid fa-tower-broadcast"></i>
+            <i className="fa-solid fa-sun"></i>
             </div>
           <div className="systemdetails-container">
           <div>
@@ -135,8 +135,8 @@ export default function Home() {
           <h2>Secure Cloud Storage</h2>
         </div>
         <div className="systemdetails-icons">
-            <i class="fa-solid fa-cloud"></i>
-            <i class="fa-solid fa-lock"></i>
+            <i className="fa-solid fa-cloud"></i>
+            <i className="fa-solid fa-lock"></i>
             </div>
         <div className="systemdetails-container">
           <div className="systemdetail">
