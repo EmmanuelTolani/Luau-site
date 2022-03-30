@@ -1,30 +1,257 @@
 
-/////System page styles 
-
-.system{
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 1rem 0;
-    h2{
-        text-align: center;
-        font-size: 3rem;
+/////System page styles
+.systemlanding{
+    height: 100vh;
+    background-color: #027582;
+    .container{
+        margin: auto;
+        max-width: 1170px;
+    .systemlanding-container{
+        padding: 1rem 0;
     }
-    .system-img{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-        height: 80vh;
-        padding: 2rem 0 4rem;
+    .title-container{
+        margin-top: 3rem;
+        color: #707070;
+        h2{
+        color: white;
+        text-align: center;
+        font-size: 58px !important;
+        line-height: 68px !important;
+        }
+        span{
+            font-style: italic;
+        }
+    }
+    .img-container{
+        padding: 4rem 0;
         img{
             width:100%;
             height: 100%;
             object-fit: cover;
         }
     }
-    &__explanation{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
 }
+}
+
+.system-overview{
+    padding: 118px 0 95px;
+    // height: 80vh;
+    .container{
+        max-width: 1170px;
+        margin: auto;
+    }
+    .systemoverview-container{
+        max-width: none;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 0 2rem;
+        .left-side{
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        h2{
+            font-size: 2.375rem;
+             line-height: 42px;
+             color: #027582;
+             margin: 0 0 15px;
+             padding: 0;
+        }
+        p{
+                    display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            color: #707070;
+            line-height: 24px;
+        }
+    }
+    .allspecs{
+        display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    }
+    .specs-container{
+        margin-top: 2.6rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    }
+    .spec{
+        display: flex;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    opacity: 1;
+    }
+    .spec-text{
+        align-self: flex-start;
+        h6{
+            font-size: 0.9275rem;
+            color: #707070;
+            margin: 0;
+        }
+        h5{
+            font-size: 1.5rem;
+                font-weight: 600;
+                line-height: 30px;
+        }
+    }
+    .fa-sun{
+        font-size: 60px;
+    padding-right: 14px;
+    color: gold;
+    }
+    .fa-tower-broadcast{
+        color: darkblue;
+    }
+    .fa-lock{
+        color: orange;
+    }
+    .fa-cloud{
+        color: lightblue;
+    }
+    .fa-solid{
+        font-size: 60px;
+        padding-right: 14px;
+    }
+    
+}
+    .system-img{
+       img{
+        object-fit: contain;
+        vertical-align: center;
+        max-width: 100%;
+        height: auto
+       }
+        
+    }
+   
+    .systemdetails{
+        background: lightgrey;
+        padding: 118px 0 95px;
+        .container{
+            max-width: 1170px;
+            margin: auto;
+        }
+        .systemdetails-title{
+            margin-bottom: 2rem;
+            h2{
+                font-size: 2.375rem;
+             line-height: 42px;
+             color: #027582;
+             margin: 0 0 15px;
+             padding: 0;
+             text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+        }
+        .systemdetails-icons{
+            text-align: center;
+            .fa-solid{
+                font-size: 65px;
+                padding: 0 20px;
+            }
+            .fa-sun{
+            color: gold;
+            }
+            .fa-tower-broadcast{
+                color: darkblue;
+            }
+        }
+        .systemdetails-container{
+            padding: 100px 0;
+            max-width: none;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 0 2rem;
+        }
+        .systemdetails-info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            list-style-type: circle;
+            .a{
+                list-style-type: circle;
+                li{
+                    list-style-type: circle;
+                    padding: 10px;
+                }
+            }
+            
+        }
+    }
+    .systemdetails1{
+        padding: 118px 0 95px;
+        .container{
+            max-width: 1170px;
+            margin: auto;
+        }
+        .systemdetails-icons{
+            text-align: center;
+            .fa-solid{
+                font-size: 65px;
+                padding: 0 20px;
+            }
+            .fa-lock{
+                color: orange;
+            }
+            .fa-cloud{
+                color: lightblue;
+            }
+        }
+        .systemdetails-title{
+            margin-bottom: 2rem;
+            h2{
+                font-size: 2.375rem;
+             line-height: 42px;
+             color: #027582;
+             margin: 0 0 15px;
+             padding: 0;
+             text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+        }
+        .systemdetails-container{
+            padding: 100px 0;
+            max-width: none;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 0 2rem;
+        .systemdetail{
+           .system-img{
+                padding: 20px 0;
+           }
+            p{
+                line-height: 24px;
+                color: #707070;
+            }
+        }
+        }
+        
+    }
