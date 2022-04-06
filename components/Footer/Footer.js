@@ -4,36 +4,54 @@ export default function Footer() {
     return (
      <footer>
          <div className="footer-container">
+            <div></div>
          <ul className="footer_links">
         <li>
         <Link href="/" >
          <a>
-             <i className="fab fa-linkedin"></i>
+             Legal
          </a>
          </Link>
          </li>
          <li>
          <Link href="/">
          <a >
-             <i className="fab fa-facebook-f"></i>
+             Privacy
+         </a>
+         </Link>
+         <ul className='footer_sublink'>
+            <li>
+            <Link href="/" >
+         <a>
+             Privacy Policy
+         </a>
+         </Link>
+            </li>
+         <li>
+         <Link href="/">
+         <a >
+             Cookie Policy
          </a>
          </Link>
          </li>
          <li>
          <Link href="/">
          <a >
-            <i className="fab fa-instagram"></i>
-         </a>
-         </Link>
-         </li>
-         <li>
-         <Link href="/">
-         <a >
-         <i className="fab fa-twitter"></i>
+             Terms of Condition
          </a>
          </Link>
          </li>
          </ul>
+         </li>
+         <li>
+         <Link href="/">
+         <a >
+         Sitemap
+         </a>
+         </Link>
+         </li>
+         </ul>
+         
         <div className="footer-trademark">
         <h1>
              Luau Data Corporation 2021	&copy; 

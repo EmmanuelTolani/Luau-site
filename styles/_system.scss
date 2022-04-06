@@ -2,7 +2,8 @@
 /////System page styles
 .systemlanding{
     height: 100vh;
-    background-color: #027582;
+    background-color: #008a99;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
     .container{
         margin: auto;
         max-width: 1170px;
@@ -141,14 +142,13 @@
     }
    
     .systemdetails{
-        background: lightgrey;
         padding: 118px 0 95px;
         .container{
             max-width: 1170px;
             margin: auto;
         }
         .systemdetails-title{
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
             h2{
                 font-size: 2.375rem;
              line-height: 42px;
@@ -159,6 +159,12 @@
             }
             p{
                 text-align: center;
+                font-size: 1.2rem;
+                line-height: 24px;
+            }
+            span{
+                font-weight: 100;
+                font-style: italic;
             }
         }
         .systemdetails-icons{
@@ -175,7 +181,7 @@
             }
         }
         .systemdetails-container{
-            padding: 100px 0;
+            padding: 50px 0;
             max-width: none;
         display: -ms-grid;
         display: grid;
@@ -183,7 +189,52 @@
         grid-template-columns: 1fr 1fr 1fr;
         -ms-flex-pack: center;
         justify-content: center;
-        gap: 0 2rem;
+        gap: 0 1rem;
+        }
+        .systemdetails-detail{
+            padding: 100px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h3{
+                font-size: 2.5rem;
+                margin-bottom: 30px;
+            }
+            p{
+                margin-top: 20px;
+                text-align: center;
+                margin-bottom: 20px;
+                line-height: 24px;
+                color: #707070;
+                font-size: 1rem;
+            }
+            .systemdetails-detail-img{
+                height: 350px;
+                width: 350px;
+                img{
+                    object-fit: contain;
+                    height: 350px;
+                    width: 350px;
+                }
+            }
+           
+            button{
+                height: 40px;
+                width: 100px;
+                background: #027582;
+                a{
+                    font-size: 1rem;
+                    text-decoration: none;
+                    color: white
+                }
+                &:hover{
+                    cursor: pointer;
+                    background: white;
+                    a{
+                        color: #027582;
+                    }
+                }
+            }
         }
         .systemdetails-info{
             display: flex;
@@ -201,6 +252,7 @@
         }
     }
     .systemdetails1{
+        background: #EBEBF2;
         padding: 118px 0 95px;
         .container{
             max-width: 1170px;
@@ -244,6 +296,7 @@
         justify-content: center;
         gap: 0 2rem;
         .systemdetail{
+          
            .system-img{
                 padding: 20px 0;
            }
@@ -253,5 +306,66 @@
             }
         }
         }
+      
         
+    }
+    .systemfull{
+        background: #EBEBF2;
+        padding: 118px 0 95px;
+        .container{
+            max-width: 1170px;
+            margin: auto;
+        }
+        .systemfull-title{
+            margin-bottom: 2rem;
+            h2{
+                font-size: 2.375rem;
+             line-height: 42px;
+             color: #027582;
+             margin: 0 0 15px;
+             padding: 0;
+             text-align: center;
+            }
+        }
+        .systemfull-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .systemfull-part{
+            padding: 50px 0;
+            display: flex;
+            // justify-content: space-between; 
+            gap: 100px;
+            .systemfull-number{
+                font-size: 3.5rem;
+                color: #027582;
+                font-weight: 700;
+            }
+            .systemfull-info{
+                display: flex;
+                flex-direction: column;
+                
+                h3{
+                    text-transform: capitalize;
+                    margin: 0 0 30px;
+                    font-size: 2rem;
+                    font-weight: 100;
+                }
+                p{
+                    margin-top: 20px;
+                    line-height: 24px;
+                }
+            }
+           
+            .systemfull-img{
+                height: 400px;
+                width: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
     }
