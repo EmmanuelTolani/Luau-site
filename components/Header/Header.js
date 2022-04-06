@@ -43,7 +43,7 @@ export default function Header() {
             <li>
               <Link href="/eyesonsite">
                 <a className={router.pathname == "/eyesonsite" ? "active" : ""}>
-                  Luau<i class="fa-solid fa-chevron-down"></i>
+                  Luau<i className="fa-solid fa-chevron-down"></i>
                 </a>
               </Link>
               <ul className="header1__collections-nav--dropdown active">
@@ -68,7 +68,7 @@ export default function Header() {
             <li>
               <Link href="/system">
                 <a className={router.pathname == "/system" ? "active" : ""}>
-                  System <i class="fa-solid fa-chevron-down"></i>
+                  System <i className="fa-solid fa-chevron-down"></i>
                 </a>
               </Link>
               <ul className="header1__collections-nav--dropdown active">
