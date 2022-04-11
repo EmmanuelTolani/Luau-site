@@ -12,8 +12,8 @@ export default function Home() {
     >
       <Head></Head>
       <>
-        <section className="field-tested">
-          <h3>Field tested since 2016</h3>
+        {/* <section className="field-tested">
+          <h2>Field tested since 2016</h2>
           <div>left arrow</div>
           <div>
             <img></img>
@@ -22,17 +22,17 @@ export default function Home() {
             </p>
             <div>right arrow</div>
           </div>
-        </section>
+        </section> */}
         <section className="products">
           <div className="product-1">
             <div className="product-img">
-              <img src="../src/img/website-images/map-eyes.png"></img>
+              <img src="../src/img/website-images/orange-derrek.jpg"></img>
             </div>
             <div className="product-info">
-              <h3>
+              <h2>
                 Surveillance and Monitoring for outdoor sites with no electrical
                 power.
-              </h3>
+              </h2>
               <p>
                 solar cameras and sensors run day and night no external
                 connections, mount on any post, rail or tree branch all weather,
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
           <div className="product-2">
             <div className="product-info">
-              <h3>Solar-powered cameras and sensors connected to the cloud.</h3>
+              <h2>Solar-powered cameras and sensors connected to the cloud.</h2>
               <p
                 style={{
                   textAlign: "center",
@@ -57,15 +57,15 @@ export default function Home() {
               <button className="product-info__button">Learn More</button>
             </div>
             <div className="product-img">
-              <img src="https://i.stack.imgur.com/y9DpT.jpg"></img>
+              <img src="../src/img/website-images/four-bridges.jpg"></img>
             </div>
           </div>
-          <div className="product-3">
+          <div className="product-2">
             <div className="product-img">
               <img src="../src/img/website-images/eyesonsite.png"></img>
             </div>
             <div className="product-info">
-              <h3>A sensor network wherever you put it! </h3>
+              <h2>A sensor network wherever you put it! </h2>
               <p>
                 Cameras and sensors self-organize to move their data Choose
                 zero, one or multiple cloud uplinks per site Uplink to the cloud
@@ -76,11 +76,8 @@ export default function Home() {
             </div>
           </div>
           <div className="product-3">
-            <div className="product-img">
-              <img src="../src/img/website-images/eyesonsite.png"></img>
-            </div>
             <div className="product-info">
-              <h3>Scalable! Manage sites and regions geographically </h3>
+              <h2>Scalable! Manage sites and regions geographically </h2>
               <p>
                 Devices locate and map themselves by GPS Manage any number of
                 devices by list or map Define your own geographical regions and
@@ -88,13 +85,16 @@ export default function Home() {
               </p>
               <button className="product-info__button">Learn More</button>
             </div>
-          </div>
-          <div className="product-3">
             <div className="product-img">
-              <img src="../src/img/website-images/eyesonsite.png"></img>
+              <img src="../src/img/website-images/map-eyes.png"></img>
+            </div>
+          </div>
+          <div className="product-2">
+            <div className="product-img">
+              <img src="../src/img/website-images/turn-key-split.jpg"></img>
             </div>
             <div className="product-info">
-              <h3>Safe, Secure and Reliable</h3>
+              <h2>Safe, Secure and Reliable</h2>
               <p>
                 Wireless data is DES encrypted Devices validate each other with
                 PKI key pairs For hazardous sites, Safety Certified devices

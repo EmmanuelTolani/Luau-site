@@ -24,25 +24,35 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/about": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/about.js"
+    ],
+    "/applications": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/applications.js"
+    ],
     "/cloud": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/cloud.js"
     ],
-    "/device": [
+    "/contact": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/device.js"
+      "static/chunks/pages/contact.js"
     ],
-    "/display": [
+    "/eyesonsite": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/display.js"
+      "static/chunks/pages/eyesonsite.js"
     ],
-    "/system": [
+    "/products": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/system.js"
+      "static/chunks/pages/products.js"
     ]
   },
   "ampFirstPages": []

@@ -16,7 +16,7 @@ export default function Home() {
             <div className="title-container">
               <h2>
                 {" "}
-                <span>The Eyes On Site&trade;</span> System
+                The Eyes On Site&trade; System
               </h2>
             </div>
             <div className="img-container">
@@ -84,10 +84,10 @@ export default function Home() {
         <div className="container">
           <div className="systemdetails-title">
             <h2>
-              What is the <span>Eyes On Site&trade; system</span>{" "}
+              What is the Eyes On Site<span className="trade">&trade; </span>system?{" "}
             </h2>
             <p>
-              <span>Eyes On Site&trade;</span> is a system that allows you to
+              <span>Eyes On Site<span className="trade">&trade; </span></span> is a system that allows you to
               remotely view your site on any display. The system is made of{" "}
               <span>EOS Field Devices</span>, the{" "}
               <span>Luau Cloud Server.</span>, and your <span>Display</span>
@@ -95,9 +95,9 @@ export default function Home() {
           </div>
           <div className="systemdetails-container">
             <div className="systemdetails-detail">
-              <h3>EOS Field Devices</h3>
+              <h2>EOS Field Devices</h2>
               <div className="systemdetails-detail-img">
-                  <img src="./src/img/website-images/products/EOS2P0.jpg" />
+                  <img src="./src/img/website-images//red-pipe.jpg" />
               </div>
               <p>
               The EOS Field Network is secure and encrypted. These devices are either  uplinks with cameras or sensors. 
@@ -111,7 +111,7 @@ export default function Home() {
               </button>
             </div>
             <div className="systemdetails-detail">
-              <h3>Displays</h3>
+              <h2>Displays</h2>
               <div className="systemdetails-detail-img">
                <img src="./src/img/website-images/turn-key.png" />
               </div>
@@ -127,7 +127,7 @@ export default function Home() {
               </button>
             </div>
             <div className="systemdetails-detail">
-              <h3>Luau Cloud Server</h3>
+              <h2>Luau Cloud Server</h2>
               <div  className="systemdetails-detail-img">
               <img src="./src/img/website-images/cloud-chart.jpg" />
               </div>
@@ -150,16 +150,16 @@ export default function Home() {
         <div className="container">
         <div className="systemfull-container">
         <div className="systemfull-title">
-              <h2>How does it work together</h2>
+              <h2>How does it work together?</h2>
           </div>
         <div className="systemfull-part">
           <div className="systemfull-number">
             1.
           </div>
           <div className="systemfull-info">
-          <h3>
+          <h2>
               monitor your site with your eos field devices
-            </h3>
+            </h2>
             <div className="systemfull-img">
             <img src="./src/img/website-images/DSCF1896.JPG" />
             </div>
@@ -174,9 +174,9 @@ export default function Home() {
             2.
           </div>
           <div className="systemfull-info">
-          <h3>
+          <h2>
               Have all images and sensor information uploaded to the cloud
-            </h3>
+            </h2>
             <div className="systemfull-img">
             <img  src="./src/img/website-images/eyesonsite.png" />
             </div>
@@ -191,9 +191,9 @@ export default function Home() {
             3.
           </div>
           <div className="systemfull-info">
-          <h3>
+          <h2>
               View your site information from the cloud on any device
-            </h3>
+            </h2>
             <div className="systemfull-img">
             <img src="https://images.pexels.com/photos/269323/pexels-photo-269323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
             </div>

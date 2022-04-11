@@ -1,21 +1,19 @@
 ////CaseStudy page styles
-
-
 .case-studys{
-    max-width: 1140px;
     margin: 0 auto;
     padding: 3rem 0;
     background: white;
+    max-width: 1170px;
     .case-study-1,.case-study-2, .case-study-3,.case-study-4{
         padding: 3rem 1.5rem;
         margin-bottom: 2rem;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         // flex-wrap: wrap;
         .case-study-img{
-            width: 50%;
+            width: 55%;
             max-height: 550px;
             
             img{
@@ -30,14 +28,15 @@
             justify-content: center;
             flex-direction: column;
             align-items: center;
-            width: 40%;
-            line-height: 250%;
-            h3{
+            width: 45%;
+            line-height: 160%;
+            h2{
                 text-align: center;
-                color: black;
+                color: #027582;
                 margin-bottom: 30px;
                 font-size: clamp(1.8rem, 1.5273rem + 0.9091vw, 2.3rem);
-                font-weight: 500;
+                font-weight: 600;
+                text-transform: uppercase;
             }
             p{
                 font-size: clamp(0.8rem, 0.6909rem + 0.3636vw, 1rem);
@@ -48,7 +47,7 @@
             
             &__button{
                 text-align: center;
-                background: #5BD96E;
+                background: #d02419;
                 color: white;
                 padding: 10px 40px;
                 cursor: pointer;

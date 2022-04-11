@@ -22,12 +22,14 @@
     color: #1b1b1b;
     font-size: 1rem;
       font-weight: 300;
-      font-family: 'Share', cursive;
+      // font-family: 'Share', cursive;
       text-transform: uppercase;
       letter-spacing: 2px;
-      line-height: 1.7rem;
+      line-height: 1.5rem;
+      font-size: 14px;
+      cursor: pointer;
     &:hover {
-     color: #027582;
+      color: #d02419;
 
     }
     &:after{
@@ -143,7 +145,7 @@
     }
   }
   .active{
-    color: #027582;
+    color: #d02419;
     font-weight: 700;
   }
  

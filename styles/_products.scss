@@ -1,10 +1,9 @@
 //////Product page styles 
-
 .products{
-    max-width: 1140px;
-    margin: 0 auto;
     padding: 3rem 0;
     background: white;
+    max-width: 1170px;
+    margin: 0 auto;
     .product-1,.product-2, .product-3{
         padding: 3rem 1.5rem;
         margin-bottom: 2rem;
@@ -30,19 +29,22 @@
             flex-direction: column;
             align-items: center;
             width: 45%;
-            line-height: 250%;
-            h3{
+            h2{
                 text-align: center;
                 color: black;
                 margin-bottom: 30px;
                 font-size: clamp(1.8rem, 1.5273rem + 0.9091vw, 2.3rem);
-                font-weight: 500;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: #027582;
             }
             p{
                 font-size: clamp(0.8rem, 0.6909rem + 0.3636vw, 1rem);
                 font-weight: 200;
                 text-align: left;
                 margin-bottom: 1.5rem;
+                color: grey;
+                line-height: 160%;
             }
             &__button-container{
                 display: flex;
@@ -50,14 +52,14 @@
             }
             &__button{
                 text-align: center;
-                background: #5BD96E;
+                background: #d02419;
                 color: white;
                 padding: 10px 40px;
                 cursor: pointer;
             }
             &__button1{
                 text-align: center;
-                background: orange;
+                background: #04a7b9;
                 color: white;
                 padding: 10px 40px;
                 cursor: pointer;

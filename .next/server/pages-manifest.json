@@ -2,8 +2,10 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/system": "pages/system.js",
+  "/eyesonsite": "pages/eyesonsite.js",
+  "/contact": "pages/contact.js",
+  "/about": "pages/about.js",
   "/cloud": "pages/cloud.js",
-  "/device": "pages/device.js",
-  "/display": "pages/display.js"
+  "/applications": "pages/applications.js",
+  "/products": "pages/products.js"
 }

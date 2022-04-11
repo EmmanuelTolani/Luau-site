@@ -2,53 +2,70 @@ import Head from "next/head";
 import MainLayout from "../components/layouts/MainLayout";
 import Hero from "../components/Hero/Hero";
 import AlternateLayout from "../components/layouts/AlternateLayout";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
-    <AlternateLayout
-      title="Applications"
-      bG="https://images.pexels.com/photos/4609259/pexels-photo-4609259.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-      color="white"
-    >
+    <>
+    <Header />
       <Head></Head>
-      <>
+      
+       <div className="applicationlanding">
+        <div className="container">
+          <div className="applicationlanding-container">
+            <div className="title-container">
+              <h1>
+                {" "}
+                 Eyes On Site&trade; Applications
+              </h1>
+            </div>
+            <div className="img-container">
+              <img src="src/img/website-images/orange-derrek.jpg"/>
+            </div>
+            {/* <div className="subtitle-container">
+              <h2>Eyes On Sitetm saves time, money and worry for applications like: Construction Project Management , Oilfield Operations ,Environmental Monitoring and etc.</h2>
+            </div> */}
+          </div>
+        </div>
+        <div>
+        </div>
+      </div>
       <div className="application">
-      <section>
-          <h2>
-            Eyes On Sitetm saves time, money and worry for applications
-            including
+        <div className="container">
+        <section className="application__summary">
+          <h2 className="application__title" >
+            Eyes On Site<span className="trade">&trade;</span> saves time, money and worry
           </h2>
-          <p>
-            Eyes On Sitetm saves time, money and worry for applications
-            including: Construction Project Management Oilfield Operations Site
-            Reclamation Environmental Monitoring Rural Properties Custom
-            Projects{" "}
+          <p className="application__subtitle">
+            There are several  applications
+            including: Construction project management, Oilfield operations, Site
+            reclamation, Environmental monitoring, Rural properties , Custom
+            projects.{" "}
           </p>
         </section>
-        <section>
-          <h3>Camera Devices</h3>
-        </section>
-        <section>
-          <h3>Application: Construction Project Management</h3>
-          <div>
+        <section className="application__example">
+          <h2 className="application__title">Application: Construction Project Management</h2>
+          <div className="application__img">
             <img src="../src/img/website-images/application/Construction.png" />
-          </div>
-          <div>
             <img src="../src/img/website-images/application/Construction1.png" />
           </div>
-          <p>
+          <div  className="application__img">
+            
+          </div>
+          <p  className="application__text">
             All of the pictures and video in this section were taken with Eyes
             On Sitetm equipment. The time-lapse videos are generated directly
             from the system using a built-in movie feature
           </p>
         </section>
 
-        <section>
-          <h3>Application: Oilfield Operations </h3>
-          <div>
+        <section className="application__example">
+          <h2 className="application__title">Application: Oilfield Operations </h2>
+          <div  className="application__img2" >
             <img src="../src/img/website-images/application/OilfieldOperations.jpg" />
           </div>
-          <p>
+          <p  className="application__text">
             Nothing unusual is supposed to happen on most oilfield operating
             sites, and mostly nothing does, but leaks and failures happen
             occasionally and can have huge consequences. Here an operator checks
@@ -57,19 +74,19 @@ export default function Home() {
             horizontal along the pipe), but the operator still visits
             occasionally to make sure nothing else is wrong.{" "}
           </p>
-          <p>
+          <p  className="application__text">
             Other oilfield sites have problems with theft, vandalism, livestock,
             or operating parts that fail (such as pumpjack motors and pipeline
             compressors), so they need more visits for more time and money,
             mostly to discover that nothing has happened.{" "}
           </p>
         </section>
-        <section>
-          <h3>Application: Site Reclamation </h3>
-          <div>
+        <section className="application__example">
+          <h2 className="application__title">Application: Site Reclamation </h2>
+          <div className="application__img2">
             <img src="../src/img/website-images/application/SiteReclamation.png" />
           </div>
-          <p>
+          <p className="application__text">
             Site reclamation is required on abandoned oilfield sites, but
             similar remediation is used for mines, old industrial sites, and
             “brownfield” construction sites. The process often takes years of
@@ -78,7 +95,7 @@ export default function Home() {
             remediated and recontoured. The final steps are topsoil and then
             re-seeding.
           </p>
-          <p>
+          <p className="application__text">
             This Eyes On Site camera was installed by the landowner. The images
             are hazy because the camera has been unattended for more than a year
             so the lens dusty from the earth moving. The field of view sways
@@ -86,9 +103,9 @@ export default function Home() {
             There is no building or AC power within half a mile of this site.
           </p>
         </section>
-        <section>
-          <h3>Application: Environmental Monitoring</h3>
-          <p>
+        <section className="application__example">
+          <h2 className="application__title">Application: Environmental Monitoring</h2>
+          <p className="application__text">
             Many projects require an environmental baseline before work begins,
             and possibly additional monitoring during and after completion. Eyes
             On Sitetm is ideal for this application because these sites often
@@ -96,50 +113,54 @@ export default function Home() {
             any chosen time of day can be produced directly from the web
             interface.{" "}
           </p>
-          <div>
+          <div className="application__img2">
             <img src="../src/img/website-images/application/EnvironmentalMonitoring.png" />
           </div>
         </section>
-        <section>
-          <p>
+        </div>
+      <div>
+        <section className="application__example1">
+          <p className="application__subtitle">
             In addition to pictures and video, Eyes On Site can report on
             sunlight, temperature, and other variables the project may require.
           </p>
-          <div>
+          <div className="application__img2">
             <img src="../src/img/website-images/application/DeviceGraph.png" />
           </div>
         </section>
-        <section>
-          <h3>Application: Rural Properties</h3>
-          <p>
+        <section className="application__example">
+          <h2 className="application__title">Application: Rural Properties</h2>
+          <p className="application__text">
             Rural properties, including farms and rural residential, have a
             constant problem with crime and intermittent policing. The problem
             is worse if the owners leave seasonally or on vacation.
           </p>
           <div>farm pics</div>
         </section>
-        <section>
-          <h3>Application: Special Projects</h3>
-          <p>
+        <section className="application__example">
+          <h2 className="application__title">Application: Special Projects</h2>
+          <p className="application__text">
             Eyes On Site can be customized for a huge variety of custom
             surveillance and monitoring projects
           </p>
         </section>
-        <section>
-          <h3>Camera Applications</h3>
-          <p>
+        <section className="application__example">
+          <h2 className="application__title">Camera Applications</h2>
+          <p className="application__text">
             The EOS210 camera body can be configured with 1 or 2, 8MP or 16MP
             swivel cameras, and the device includes a quad-core high-speed image
             processor that is capable of still image or video editing, as well
             as simple scene recognition.{" "}
           </p>
-          <div>
+          <div className="application__img2">
             more here about custom sensors and ML more here about NASA project
             in Reno Reno pics
           </div>
         </section>
+        </div>
+      
       </div>
+      <Footer/>
       </>
-    </AlternateLayout>
   );
 }

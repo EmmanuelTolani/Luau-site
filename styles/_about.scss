@@ -1,7 +1,7 @@
 ///////About page styles
 
 .about-founders {
-  max-width: 1140px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 3rem 0;
   background: white;
@@ -16,11 +16,13 @@
     .about-img {
       height: 550px;
       width: 52%;
-      h3 {
+      h2 {
         text-align: center;
         margin-bottom: 2.3rem;
         font-size: clamp(1.8rem, 1.5273rem + 0.9091vw, 2.3rem);
-        font-weight: 500;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #027582;
       }
       img {
         width: 100%;
@@ -30,11 +32,12 @@
     }
     .about-info {
       padding: 1.5rem;
-      width: 40%;
+      width: 60%;
       line-height: 250%;
 
       p {
         margin-top: 150px;
+        // font-size: 12px;
         font-size: clamp(0.8rem, 0.6909rem + 0.3636vw, 1rem);
         font-weight: 200;
       }

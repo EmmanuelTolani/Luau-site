@@ -54,7 +54,7 @@ export default function Footer() {
          
         <div className="footer-trademark">
         <h1>
-             Luau Data Corporation 2021	&copy; 
+             Luau Data Corporation 2022	&copy; 
          </h1>
         </div>
         </div>

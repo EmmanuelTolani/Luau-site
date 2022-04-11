@@ -11,6 +11,7 @@ export default function Home() {
       <VideoHero />
       <div className="main">
         <section className="main-services">
+          <div className="container">
           <h2 className="main-services__title">What we do</h2>
           <div className="main-services__container">
             {/* <div className="main-services__service">
@@ -78,48 +79,49 @@ export default function Home() {
               </Link>
             </div>
           </div>
+          </div>
+          
         </section>
         <section className="main-benefits">
+          <div className="container">
           <h2 className="main-benefits__title">Main Benefits</h2>
           <div className="main-benefits__container">
             <div className="main-benefits__benefit">
-              <p>logo</p>
+            <i class="fa-solid fa-sun"></i>
               <h3>Know what's going on Anywhere the Sun Shines</h3>
-              <p>Pictures and Data with No Local Power</p>
-              <p>
-                Status and History on your phone… from anywhere the sun shines.{" "}
+              <p>View pictures and data with no local power.
+                Status and history on your phone… from anywhere the sun shines.{" "}
               </p>
             </div>
             <div className="main-benefits__benefit">
-              <p>logo</p>
+            <i class="fa-solid fa-plane-departure"></i>
               <h3>Travel Less and Respond Faster</h3>
-              <p>Visit remote sites on your browser, not in person</p>
-              <p>See problems when they happen, not days later</p>
+              <p>Visit remote sites on your display, instead of traveling there.
+              See problems immediately, not days later</p>
             </div>
             <div className="main-benefits__benefit">
-              <p>logo</p>
+            <i class="fa-solid fa-peace"></i>
               <h3>Peace of Mind </h3>
               <p>
                 See your rural home or outdoor business from wherever you are.
-              </p>
-              <p>
                 No on-site mysteries. Ongoing history explains what happened.
               </p>
             </div>
             <div className="main-benefits__benefit">
-              <p>logo</p>
+            <i class="fa-solid fa-piggy-bank"></i>
               <h3>Save Time, Save Money, Save Worry</h3>
-              <p>Less Travel, Full History, and Faster Response.</p>
-              <p>Save time and money, and always know whats been going on.</p>
-              <p>
-                Less Travel saves money. Knowledge and Response can save a lot
-                more.{" "}
+              <p>Less Travel, Full History, and Faster Response.
+             Save time and money, and always know whats been going on.
+                Less Travel saves money. 
               </p>
             </div>
           </div>
+          </div>
+          
         </section>
         <section className="main-why">
-          <div className="main-why__video">
+        <div className="container">
+        <div className="main-why__video">
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAKlBMVEXg4OD////j4+Pd3d36+vri4uLw8PDs7Oz29vb09PTa2tr5+fnm5ubx8fF4aKZkAAABUUlEQVR4nO3Z246CMBRAUWjBgQ78/+8OeMVR4E0TzlovJpUY3DnBglUFAAAAAAAAAAAAAAAAAAAAAAAAAMAh5DZtq/K3T/HTclfv6YNFyf1ukro+ffssPyvX9bg9BtMg/cYalKnJz06TU93EazK/tENa+eJRm+Rxump0K0cEbXI6X0q7t189aJN8/X1p3x4Ru8nwWO7uQxO0Sbk2eax2j51a0CbVcNma3UejW2xfozbJqZley22tW+7pozapcinleUruUcI2Wa4sbgrnKLGbpPPC033yFCV0k2ben/x/dNDnwE1yM2/aXp+mlMBN5iR18/qAKW6T85S8FbfJapKwTdanJHCT9SSaaDLT5NWlSWrXpMh7tpW3g97v9CkN61LqwjUZN64lNzv/AB1O2f+/eCz7H3MspeRtJVwSAAAAAAAAAAAAAAAAAAAAAAAAAICj+gOmbQmv8zyqjAAAAABJRU5ErkJggg==" />
           </div>
           <div className="main-why__text">
@@ -135,6 +137,7 @@ export default function Home() {
               governents, and environmental remediation specialist.
             </p>
           </div>
+        </div>
         </section>
       </div>
     </MainLayout>

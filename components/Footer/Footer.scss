@@ -1,6 +1,6 @@
 footer{
     // margin-top: 100px;
-    background: #027582;
+    background: #e63d02;
     // display: flex;
     // justify-content: center;
     padding: 20px 0;
@@ -29,6 +29,9 @@ footer{
             color: white;
             font-size: 16px;
             text-align: center;
+        }
+        a:hover{
+            color: #04a7b9;
         }
     }
     .footer_sublink{

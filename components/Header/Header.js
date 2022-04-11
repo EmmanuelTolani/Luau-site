@@ -41,11 +41,9 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/eyesonsite">
-                <a className={router.pathname == "/eyesonsite" ? "active" : ""}>
+                <a>
                   Luau<i className="fa-solid fa-chevron-down"></i>
                 </a>
-              </Link>
               <ul className="header1__collections-nav--dropdown active">
                 <li>
                   <Link href="/about">
@@ -66,11 +64,9 @@ export default function Header() {
               </ul>
             </li>
             <li>
-              <Link href="/system">
-                <a className={router.pathname == "/system" ? "active" : ""}>
+                <a>
                   System <i className="fa-solid fa-chevron-down"></i>
                 </a>
-              </Link>
               <ul className="header1__collections-nav--dropdown active">
               <li >
                   <Link href="/system">

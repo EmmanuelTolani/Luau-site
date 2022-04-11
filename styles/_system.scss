@@ -3,7 +3,7 @@
 .systemlanding{
     height: 100vh;
     background-color: #008a99;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
     .container{
         margin: auto;
         max-width: 1170px;
@@ -150,12 +150,14 @@
         .systemdetails-title{
             margin-bottom: 1rem;
             h2{
-                font-size: 2.375rem;
+                font-size: 2.5rem;
              line-height: 42px;
              color: #027582;
              margin: 0 0 15px;
+             font-weight: 600;
              padding: 0;
              text-align: center;
+             text-transform: uppercase;
             }
             p{
                 text-align: center;
@@ -196,17 +198,20 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            h3{
-                font-size: 2.5rem;
+            h2{
+                font-size: 2rem;
                 margin-bottom: 30px;
+                font-weight: 100;
+                color: #008a99;
             }
             p{
                 margin-top: 20px;
                 text-align: center;
                 margin-bottom: 20px;
-                line-height: 24px;
+                line-height: 160%;
                 color: #707070;
                 font-size: 1rem;
+                font-weight: 500;
             }
             .systemdetails-detail-img{
                 height: 350px;
@@ -220,8 +225,8 @@
            
             button{
                 height: 40px;
-                width: 100px;
-                background: #027582;
+                width: 150px;
+                background: #e63d02;
                 a{
                     font-size: 1rem;
                     text-decoration: none;
@@ -310,7 +315,7 @@
         
     }
     .systemfull{
-        background: #EBEBF2;
+        background: #008a99;
         padding: 118px 0 95px;
         .container{
             max-width: 1170px;
@@ -319,11 +324,12 @@
         .systemfull-title{
             margin-bottom: 2rem;
             h2{
-                font-size: 2.375rem;
+                font-size: 2.5rem;
              line-height: 42px;
-             color: #027582;
+             color: white;
              margin: 0 0 15px;
-             padding: 0;
+             font-weight: 600;
+             text-transform: uppercase;
              text-align: center;
             }
         }
@@ -339,22 +345,23 @@
             gap: 100px;
             .systemfull-number{
                 font-size: 3.5rem;
-                color: #027582;
+                color: white;
                 font-weight: 700;
             }
             .systemfull-info{
                 display: flex;
                 flex-direction: column;
-                
-                h3{
+                h2{
                     text-transform: capitalize;
                     margin: 0 0 30px;
                     font-size: 2rem;
                     font-weight: 100;
+                    color: white;
                 }
                 p{
                     margin-top: 20px;
                     line-height: 24px;
+                    color: lightgrey;
                 }
             }
            
