@@ -87,20 +87,20 @@ export default function Home() {
           <h2 className="main-benefits__title">Main Benefits</h2>
           <div className="main-benefits__container">
             <div className="main-benefits__benefit">
-            <i class="fa-solid fa-sun"></i>
+            <i className="fa-solid fa-sun"></i>
               <h3>Know what's going on Anywhere the Sun Shines</h3>
               <p>View pictures and data with no local power.
                 Status and history on your phone… from anywhere the sun shines.{" "}
               </p>
             </div>
             <div className="main-benefits__benefit">
-            <i class="fa-solid fa-plane-departure"></i>
+            <i className="fa-solid fa-plane-departure"></i>
               <h3>Travel Less and Respond Faster</h3>
               <p>Visit remote sites on your display, instead of traveling there.
               See problems immediately, not days later</p>
             </div>
             <div className="main-benefits__benefit">
-            <i class="fa-solid fa-peace"></i>
+            <i className="fa-solid fa-peace"></i>
               <h3>Peace of Mind </h3>
               <p>
                 See your rural home or outdoor business from wherever you are.
@@ -108,7 +108,7 @@ export default function Home() {
               </p>
             </div>
             <div className="main-benefits__benefit">
-            <i class="fa-solid fa-piggy-bank"></i>
+            <i className="fa-solid fa-piggy-bank"></i>
               <h3>Save Time, Save Money, Save Worry</h3>
               <p>Less Travel, Full History, and Faster Response.
              Save time and money, and always know whats been going on.
