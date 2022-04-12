@@ -10,7 +10,6 @@ export default function Home() {
     <>
     <Header />
       <Head></Head>
-      
        <div className="applicationlanding">
         <div className="container">
           <div className="applicationlanding-container">
@@ -118,16 +117,19 @@ export default function Home() {
           </div>
         </section>
         </div>
-      <div>
         <section className="application__example1">
-          <p className="application__subtitle">
-            In addition to pictures and video, Eyes On Site can report on
-            sunlight, temperature, and other variables the project may require.
-          </p>
+          <div className="container">
           <div className="application__img2">
             <img src="../src/img/website-images/application/DeviceGraph.png" />
           </div>
+          <p className="application__subtitle2">
+            In addition to pictures and video, Eyes On Site can report on
+            sunlight, temperature, and other variables the project may require.
+          </p>
+          
+          </div>
         </section>
+      <div className="container">
         <section className="application__example">
           <h2 className="application__title">Application: Rural Properties</h2>
           <p className="application__text">
@@ -135,7 +137,7 @@ export default function Home() {
             constant problem with crime and intermittent policing. The problem
             is worse if the owners leave seasonally or on vacation.
           </p>
-          <div>farm pics</div>
+          <div className="application__img2"><img src="https://images.pexels.com/photos/235725/pexels-photo-235725.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/></div>
         </section>
         <section className="application__example">
           <h2 className="application__title">Application: Special Projects</h2>
@@ -143,6 +145,9 @@ export default function Home() {
             Eyes On Site can be customized for a huge variety of custom
             surveillance and monitoring projects
           </p>
+          <div className="application__img2">
+            <img src="../src/img/website-images/police-mcdougall.jpg" />
+            </div>
         </section>
         <section className="application__example">
           <h2 className="application__title">Camera Applications</h2>
@@ -152,13 +157,8 @@ export default function Home() {
             processor that is capable of still image or video editing, as well
             as simple scene recognition.{" "}
           </p>
-          <div className="application__img2">
-            more here about custom sensors and ML more here about NASA project
-            in Reno Reno pics
-          </div>
         </section>
         </div>
-      
       </div>
       <Footer/>
       </>

@@ -2,6 +2,7 @@ import Head from "next/head";
 import MainLayout from "../components/layouts/MainLayout";
 import Hero from "../components/Hero/Hero";
 import AlternateLayout from "../components/layouts/AlternateLayout";
+import Link from "next/dist/client/link";
 
 export default function Home() {
   return (
@@ -38,7 +39,9 @@ export default function Home() {
                 connections, mount on any post, rail or tree branch all weather,
                 all seasons, works in rain, snow, hail or blistering heat
               </p>
-              <button className="product-info__button">Learn More</button>
+              <button className="product-info__button"><Link href="/system">
+              <a>Learn More</a>
+              </Link></button>
             </div>
           </div>
           <div className="product-2">
@@ -54,7 +57,9 @@ export default function Home() {
                 defined sensor events Record sensor data including motion,
                 sunlight, temperature, and specialty sensors
               </p>
-              <button className="product-info__button">Learn More</button>
+              <button className="product-info__button"><Link href="/system">
+              <a>Learn More</a>
+              </Link></button>
             </div>
             <div className="product-img">
               <img src="../src/img/website-images/four-bridges.jpg"></img>
@@ -72,7 +77,9 @@ export default function Home() {
                 via cell network, local wifi, or drive-by wireless to a mobile
                 device
               </p>
-              <button className="product-info__button">Learn More</button>
+              <button className="product-info__button"><Link href="/system">
+              <a>Learn More</a>
+              </Link></button>
             </div>
           </div>
           <div className="product-3">
@@ -83,7 +90,9 @@ export default function Home() {
                 devices by list or map Define your own geographical regions and
                 sites
               </p>
-              <button className="product-info__button">Learn More</button>
+              <button className="product-info__button"><Link href="/system">
+              <a>Learn More</a>
+              </Link></button>
             </div>
             <div className="product-img">
               <img src="../src/img/website-images/map-eyes.png"></img>
@@ -100,7 +109,9 @@ export default function Home() {
                 PKI key pairs For hazardous sites, Safety Certified devices
                 available for Zone 1 and Zone 2
               </p>
-              <button className="product-info__button">Learn More</button>
+              <button className="product-info__button"><Link href="/system">
+             <a>Learn More</a> 
+              </Link></button>
             </div>
           </div>
         </section>
