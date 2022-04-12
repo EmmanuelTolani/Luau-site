@@ -2,6 +2,7 @@ import Head from "next/head";
 import MainLayout from "../components/layouts/MainLayout";
 import Hero from "../components/Hero/Hero";
 import AlternateLayout from "../components/layouts/AlternateLayout";
+import Link from "next/dist/client/link";
 
 export default function Home() {
   return (
@@ -28,7 +29,9 @@ export default function Home() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum."
               </p>
-              <button className="case-study-info__button">Learn More</button>
+              <button className="case-study-info__button"><Link href="/applications">
+              <a>Learn More</a>
+              </Link></button>
             </div>
           </div>
           <div className="case-study-2">
@@ -47,7 +50,9 @@ export default function Home() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum."
               </p>
-              <button className="case-study-info__button">Learn More</button>
+              <button className="case-study-info__button"><Link href="/applications">
+              <a>Learn More</a>
+              </Link></button>
             </div>
             <div className="case-study-img">
               <img src="../src/img/website-images/mcdougall.jpeg"></img>
@@ -68,7 +73,9 @@ export default function Home() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum."
               </p>
-              <button className="case-study-info__button">Learn More</button>
+              <button className="case-study-info__button"><Link href="/applications">
+              <a>Learn More</a>
+              </Link></button>
             </div>
           </div>
           <div className="case-study-4">
@@ -87,7 +94,9 @@ export default function Home() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum."
               </p>
-              <button className="case-study-info__button">Learn More</button>
+              <button className="case-study-info__button"><Link href="/applications">
+              <a>Learn More</a>
+              </Link></button>
             </div>
             <div className="case-study-img">
               <img src="https://assets.spe.org/dims4/default/a8551cb/2147483647/strip/true/crop/1024x718+0+0/resize/800x561!/quality/90/?url=http%3A%2F%2Fspe-brightspot.s3.amazonaws.com%2F40%2F69%2F03e1a5df7783871f348c6fae4cf4%2Fdrilling-olympus-hero.jpg"></img>

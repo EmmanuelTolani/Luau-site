@@ -51,11 +51,23 @@
                 color: white;
                 padding: 10px 40px;
                 cursor: pointer;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+               
+                &:hover{
+                    cursor: pointer;
+                    background: white;
+                    a{
+                        color: #027582;
+                    }
             }
         }
 
     }
 
+    }
 }
 
 @media screen and (max-width: 1025px){
