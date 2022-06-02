@@ -14,11 +14,11 @@ export default function Footer() {
          </Link>
          </li>
          <li>
-         <Link href="/">
+         {/* <Link href="/">
          <a >
              Privacy
          </a>
-         </Link>
+         </Link> */}
          <ul className='footer_sublink'>
             <li>
             <Link href="/" >

@@ -48,7 +48,7 @@ export default function Home() {
                 center.{" "}
           </p>
         </section>
-        <section className="device__camera">
+        {/* <section className="device__camera">
           <h2>Ground Cloud Configurations</h2>
           <div className="device__img">
             <img src="../src/img/website-images/DSCF1880.jpg" />
@@ -61,7 +61,7 @@ export default function Home() {
                 Network with no permanent data uplink, and history is retrieved
                 wirelessly by occasional “drive-by”.{" "}
           </p>
-        </section>
+        </section> */}
     </div>
       </>
     </AlternateLayout>

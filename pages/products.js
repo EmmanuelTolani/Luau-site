@@ -17,7 +17,7 @@ export default function Home() {
           <div className="container">
             <div className="product-1">
               <div className="product-img">
-                <img src="../src/img/website-images/DSCF1880.jpg"></img>
+                <img src="../src/img/website-images/dscf1880.jpg"></img>
               </div>
               <div className="product-info">
                 <h2>Solar Camera EOS210</h2>
@@ -55,12 +55,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="product-img">
-                <img src="../src/img/website-images/DSCF1916.jpg"></img>
-              </div>
+                <img src="../src/img/website-images/dscf1916.jpg"></img>
+              </div>  
             </div>
             <div className="product-3">
               <div className="product-img">
-                <img src="../src/img/website-images/DSCF1890.jpg"></img>
+                <img src="../src/img/website-images/dscf1890.jpg"></img>
               </div>
               <div className="product-info">
                 <h2>Proximity Sensor EOS2TO</h2>
