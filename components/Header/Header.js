@@ -97,13 +97,13 @@ export default function Header() {
                 </a>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/case-study">
                 <a className={router.pathname == "/case-study" ? "active" : ""}>
                   Case Study
                 </a>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/applications">
                 <a
