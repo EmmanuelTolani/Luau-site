@@ -33,14 +33,21 @@ export default function Header() {
           {/* The header logo section ends */}
           {/* The header links section starts */}
           <ul className="header1__collections-nav">
-            <li>
-              <Link href="/eyesonsite">
-                <a className={router.pathname == "/eyesonsite" ? "active" : ""}>
-                  Overview
+          <li>
+              <Link href="/">
+                <a className={router.pathname == "/" ? "active" : ""}>
+                  Home
                 </a>
               </Link>
             </li>
             <li>
+              <Link href="/eyesonsite">
+                <a className={router.pathname == "/eyesonsite" ? "active" : ""}>
+                  Eyes on Site
+                </a>
+              </Link>
+            </li>
+            {/* <li>
                 <a>
                   Luau<i className="fa-solid fa-chevron-down"></i>
                 </a>
@@ -62,7 +69,7 @@ export default function Header() {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li>
                 <a>
                   System <i className="fa-solid fa-chevron-down"></i>
@@ -113,6 +120,15 @@ export default function Header() {
                 </a>
               </Link>
             </li>
+            <li>
+                  <Link href="/contact">
+                    <a
+                      className={router.pathname == "/contact" ? "active" : ""}
+                    >
+                      Contact
+                    </a>
+                  </Link>
+                </li>
           </ul>
           {/* The header link section ends */}
           {/* The button section starts */}

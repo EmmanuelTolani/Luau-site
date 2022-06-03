@@ -12,7 +12,8 @@ export default function Home() {
       <div className="main">
         <section className="main-services">
           <div className="container">
-          <h2 className="main-services__title">What we do</h2>
+          <h2 className="main-services__title">Brighter Site Management</h2>
+          <p className="main-services__subtitle">Your remote site on your screen</p>
           <div className="main-services__container">
             {/* <div className="main-services__service">
             <div className="main-services__img-container">
@@ -36,14 +37,14 @@ export default function Home() {
                 Construction Managment
               </h2>
               <p className="main-services__service-subtitle">
-                Track remote environmental conditions - wildfires, floods,
-                snowfalls, and more , without leaving your office.
+              Track remote environmental conditions wildfires, floods,
+                snowfalls, and more without leaving your office.
               </p>
               <span>1. Reduce Windshield Time</span>
               <span>2. Track construction progress </span>
-              <Link href="/applications">
+              {/* <Link href="/applications">
                 <a>Read More</a>
-              </Link>
+              </Link> */}
             </div>
             <div className="main-services__service">
               <div className="main-services__img-container">
@@ -53,30 +54,30 @@ export default function Home() {
                 Environmental Remediation
               </h2>
               <p className="main-services__service-subtitle">
-                Track the progress of your site for years remotely, prevent
-                hazards .
+              Track the progress of your site for years remotely, prevent
+                hazards.
               </p>
               <span>1. Reduce Windshield Time</span>
               <span>2. Quickly Respond to Hazards </span>
 
-              <Link href="/applications">
+              {/* <Link href="/applications">
                 <a>Read More</a>
-              </Link>
+              </Link> */}
             </div>
             <div className="main-services__service">
               <div className="main-services__img-container">
                 <img src="https://images.pexels.com/photos/162568/oil-pump-jack-sunset-clouds-silhouette-162568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
               </div>
-              <h2 className="main-services__service-header">Special Cases</h2>
+              <h2 className="main-services__service-header">Oilfield</h2>
               <p className="main-services__service-subtitle">
-                Track remote environmental conditions - wildfires, floods,
-                snowfalls, and more , without leaving your office.
+              Track remote environmental conditions wildfires, floods,
+                snowfalls, and more without leaving your office.
               </p>
               <span>1. Reduce Windshield Time</span>
               <span>2. Track construction progress </span>
-              <Link  href="/applications">
+              {/* <Link  href="/applications">
                 <a>Read More</a>
-              </Link>
+              </Link> */}
             </div>
           </div>
           </div>
@@ -84,20 +85,19 @@ export default function Home() {
         </section>
         <section className="main-benefits">
           <div className="container">
-          <h2 className="main-benefits__title">Main Benefits</h2>
+          {/* <h2 className="main-benefits__title">Main Benefits</h2> */}
           <div className="main-benefits__container">
             <div className="main-benefits__benefit">
             <i className="fa-solid fa-sun"></i>
-              <h3>Know what's going on Anywhere the Sun Shines</h3>
-              <p>View pictures and data with no local power.
-                Status and history on your phone… from anywhere the sun shines.{" "}
+              <h3>Know What's Going On Anywhere The Sun Shines</h3>
+              <p>View pictures and data with no local power. Status and history on your phone from anywhere the sun shines.{" "}
               </p>
             </div>
             <div className="main-benefits__benefit">
             <i className="fa-solid fa-plane-departure"></i>
               <h3>Travel Less and Respond Faster</h3>
-              <p>Visit remote sites on your display, instead of traveling there.
-              See problems immediately, not days later</p>
+              <p>Visit remote sites on your display instead of travelling there.
+              See problems immediately, not days later.</p>
             </div>
             <div className="main-benefits__benefit">
             <i className="fa-solid fa-peace"></i>
@@ -111,18 +111,18 @@ export default function Home() {
             <i className="fa-solid fa-piggy-bank"></i>
               <h3>Save Time, Save Money, Save Worry</h3>
               <p>Less Travel, Full History, and Faster Response.
-             Save time and money, and always know whats been going on.
-                Less Travel saves money. 
+              Save time and money, and always know what's been going on.
+                Less travel saves money. 
               </p>
             </div>
           </div>
           </div>
           
         </section>
-        <section className="main-why">
+        {/* <section className="main-why">
         <div className="container">
         <div className="main-why__video">
-            <img src="../src/img/website-images/cameradeer.jpg" />
+            <img src="../src/img/website-images/camera-deer.jpg" />
           </div>
           <div className="main-why__text">
             <h2>Why Luau Data</h2>
@@ -138,7 +138,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        </section>
+        </section> */}
       </div>
     </MainLayout>
   );

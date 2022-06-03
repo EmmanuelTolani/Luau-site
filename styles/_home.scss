@@ -19,6 +19,13 @@
         font-weight: 600;
         text-transform: uppercase ;
     }
+    &__subtitle{
+        text-align: center;
+        line-height: 200%;
+        font-size: 1.2rem;
+        color: #707070;
+        text-transform: capitalize;
+    }
     &__service{
         display: flex;
         flex-direction: column;
@@ -56,6 +63,7 @@
         text-align: center;
         font-weight: 300;
         line-height: 160%;
+        color: #707070;
     }
     a{
         color: #d02419;
@@ -65,6 +73,7 @@
     span{
         font-size: 0.8rem;
         margin-bottom: 15px;
+        color: #707070;
     }
 }
 .main-why{

@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <AlternateLayout
-      title="Products"
+      title="SiteMap"
       bG="../src/img/website-images/mcdougall.jpeg"
       color="white"
     >
@@ -27,13 +27,13 @@ export default function Home() {
                       </a>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/about">
                       <a>
                           About
                       </a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/contact">
                       <a>
@@ -53,6 +53,13 @@ export default function Home() {
                       </a>
                   </Link>
                 </li>
+                <li>
+                  <Link href="/purchase">
+                      <a>
+                          Purchase
+                      </a>
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="sitemap__link">
@@ -68,12 +75,12 @@ export default function Home() {
               </ul>
             </div>
             <div className="sitemap__link">
-              <h4 className="sitemap__link-title">Overview</h4>
+              <h4 className="sitemap__link-title">eyes on site</h4>
               <ul>
                 <li>
                   <Link href="/eyesonsite.js">
                       <a>
-                          Overview
+                          Eyes on site
                       </a>
                   </Link>
                 </li>

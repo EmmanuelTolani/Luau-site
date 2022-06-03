@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <AlternateLayout
       title="Devices"
-      bG="https://images.pexels.com/photos/4609259/pexels-photo-4609259.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      bG="../src/img/website-images/multiple.jpg"
       color="white"
     >
       <Head></Head>
@@ -16,7 +16,7 @@ export default function Home() {
         <div className="container">
         <section className="device__title">
           <h2>
-            Eyes On Sitetm devices can all join an EOS Field Network, and all
+          The Eyes On Site<span className="trade">&trade; </span>system devices can all join an EOS Field Network, and all
             devices are solar powered except for the EOS Powered Uplink
           </h2>
           <p>
@@ -48,7 +48,7 @@ export default function Home() {
             recorded for later use.{" "}
           </p>
           <p>
-            Specialty sensor devices our friend “Trevor”, who recognizes people
+            Specialty sensor devices recognize people
             or vehicles passing by on a road or trail.{" "}
           </p>
           <div className="device__img"><img src="http://localhost:3000/src/img/website-images/DSCF1890.jpg" /></div>

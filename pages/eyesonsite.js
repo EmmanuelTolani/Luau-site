@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <AlternateLayout
       title="Eyes On Site&trade;"
-      bG="https://images.pexels.com/photos/4609259/pexels-photo-4609259.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-      color="white"
+      bG="../src/img/website-images/red-pipe.jpg"
+      color="#e63d02"
     >
       <Head></Head>
       <>
@@ -35,9 +35,7 @@ export default function Home() {
                 power.
               </h2>
               <p>
-                solar cameras and sensors run day and night no external
-                connections, mount on any post, rail or tree branch all weather,
-                all seasons, works in rain, snow, hail or blistering heat
+              Solar cameras and sensors run day and night with no external connections, mount on any post, rail or tree branch all weather, all seasons, and work in the rain, snow, hail or blistering heat.
               </p>
               <button className="product-info__button"><Link href="/system">
               <a>Learn More</a>
@@ -46,16 +44,13 @@ export default function Home() {
           </div>
           <div className="product-2">
             <div className="product-info">
-              <h2>Solar-powered cameras and sensors connected to the cloud.</h2>
+              <h2>Solar cameras and sensors are connected to the cloud.</h2>
               <p
                 style={{
                   textAlign: "center",
                 }}
               >
-                See your outdoor site on any web browser or mobile device Get
-                pictures and video clips triggered by time, nearby motion, or
-                defined sensor events Record sensor data including motion,
-                sunlight, temperature, and specialty sensors
+                See your outdoor site on any web browser or mobile device. Get pictures and video clips triggered by time, nearby motion, or defined sensor events—record sensor data, including movement, sunlight, temperature, and specialty sensors.
               </p>
               <button className="product-info__button"><Link href="/system">
               <a>Learn More</a>
@@ -72,10 +67,7 @@ export default function Home() {
             <div className="product-info">
               <h2>A sensor network wherever you put it! </h2>
               <p>
-                Cameras and sensors self-organize to move their data Choose
-                zero, one or multiple cloud uplinks per site Uplink to the cloud
-                via cell network, local wifi, or drive-by wireless to a mobile
-                device
+              Cameras and sensors self-organize to move their data. Choose zero, one or multiple cloud uplinks per site.
               </p>
               <button className="product-info__button"><Link href="/system">
               <a>Learn More</a>
@@ -86,9 +78,7 @@ export default function Home() {
             <div className="product-info">
               <h2>Scalable! Manage sites and regions geographically </h2>
               <p>
-                Devices locate and map themselves by GPS Manage any number of
-                devices by list or map Define your own geographical regions and
-                sites
+              Devices locate and map themselves by GPS. Manage any number of devices by list or map. Define your geographical regions and sites.
               </p>
               <button className="product-info__button"><Link href="/system">
               <a>Learn More</a>
@@ -105,9 +95,7 @@ export default function Home() {
             <div className="product-info">
               <h2>Safe, Secure and Reliable</h2>
               <p>
-                Wireless data is DES encrypted Devices validate each other with
-                PKI key pairs For hazardous sites, Safety Certified devices
-                available for Zone 1 and Zone 2
+              Wireless data is encrypted, and devices validate each other. For hazardous sites, Safety Certified devices available for Zone 2.
               </p>
               <button className="product-info__button"><Link href="/system">
              <a>Learn More</a> 

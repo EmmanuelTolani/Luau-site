@@ -146,7 +146,7 @@ export default function Home() {
             surveillance and monitoring projects
           </p>
           <div className="application__img2">
-            <img src="../src/img/website-images/police-mcdougall.jpg" />
+            <img src="../src/img/website-images/nasa.jpg" />
             </div>
         </section>
         <section className="application__example">

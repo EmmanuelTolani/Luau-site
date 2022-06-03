@@ -6,19 +6,19 @@ export default function Footer() {
          <div className="footer-container">
             <div></div>
          <ul className="footer_links">
-        <li>
+        {/* <li>
         <Link href="/" >
          <a>
              Legal
          </a>
          </Link>
-         </li>
+         </li> 
          <li>
-         {/* <Link href="/">
+          <Link href="/">
          <a >
              Privacy
          </a>
-         </Link> */}
+         </Link> 
          <ul className='footer_sublink'>
             <li>
             <Link href="/" >
@@ -41,10 +41,10 @@ export default function Footer() {
          </a>
          </Link>
          </li>
-         </ul>
-         </li>
+         </ul> 
+         </li>*/}
          <li>
-         <Link href="/">
+         <Link href="/sitemap">
          <a >
          Sitemap
          </a>

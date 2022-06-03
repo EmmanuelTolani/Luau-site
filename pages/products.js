@@ -23,13 +23,13 @@ export default function Home() {
                 <h2>Solar Camera EOS210</h2>
                 <p>
                   A Camera unit with connection to the cell network. Available
-                  in two versions master and satelite.
+                  in two versions uplink and local.
                 </p>
                 <div className="product-info__button-container">
-                  <button className="product-info__button"><Link href="/device">
+                  {/* <button className="product-info__button"><Link href="/device">
               <a>Learn More</a>
-              </Link></button>
-                  <Link href="https://luau-data.myshopify.com/products/eos200-field-unit">
+              </Link></button> */}
+                  <Link href="/purchase">
                     <button className="product-info__button1">Buy Now</button>
                   </Link>
                 </div>
@@ -46,10 +46,10 @@ export default function Home() {
                   This unit can recognize motion and other special cases.
                 </p>
                 <div className="product-info__button-container">
-                  <button className="product-info__button"><Link href="/device">
+                  {/* <button className="product-info__button"><Link href="/device">
               <a>Learn More</a>
-              </Link></button>
-                  <Link href="https://luau-data.myshopify.com/products/eos200-field-unit">
+              </Link></button> */}
+                  <Link href="/purchase">
                     <button className="product-info__button1">Buy Now</button>
                   </Link>
                 </div>
@@ -69,10 +69,10 @@ export default function Home() {
                   time pictures
                 </p>
                 <div className="product-info__button-container">
-                  <button className="product-info__button"><Link href="/device">
+                  {/* <button className="product-info__button"><Link href="/device">
               <a>Learn More</a>
-              </Link></button>
-                  <Link href="https://luau-data.myshopify.com/products/eos200-field-unit">
+              </Link></button> */}
+                  <Link href="/purchase">
                     <button className="product-info__button1">Buy Now</button>
                   </Link>
                 </div>

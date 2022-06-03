@@ -16,7 +16,7 @@ export default function Home() {
         <div className="container">
         <section className="device__title">
           <h2>
-            Eyes On Sitetm displays allow you to view your site on any device 24/7
+          The Eyes On Site<span className="trade">&trade; </span>system displays allow you to view your site on any device 24/7
           </h2>
           <p>
            Displays are any laptop, tablet , and mobile device. They allow you to view information about your site through the cloud at your convience.
