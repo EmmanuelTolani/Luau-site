@@ -51,7 +51,7 @@ export default function Home() {
             Specialty sensor devices our friend “Trevor”, who recognizes people
             or vehicles passing by on a road or trail.{" "}
           </p>
-          <div className="device__img"><img src="http://localhost:3000/src/img/website-images/DSCF1890.jpg" /></div>
+          <div className="device__img"><img src="../src/img/website-images/DSCF1890.JPG" /></div>
           <p>
             For special projects, Luau Data Corp has produced specialty sensors
             such as this wind and weather sensor, used in a NASA project to
