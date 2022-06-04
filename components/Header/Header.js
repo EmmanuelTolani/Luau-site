@@ -40,9 +40,10 @@ export default function Header() {
             <Link href="/">
               <a>
                 <img
+                  className="tiki"
                   src="../src/img/website-images/logo-image-s.png"
                   height={60}
-                />{" "}
+                />{" "} 
                 <img
                   src="../src/img/website-images/logo-text.png"
                   height={20}
