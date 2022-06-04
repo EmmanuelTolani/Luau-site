@@ -87,8 +87,7 @@ export default function Home() {
               What is the Eyes On Site<span className="trade">&trade; </span>system?{" "}
             </h2>
             <p>
-              <span>Eyes On Site<span className="trade">&trade; </span></span> is a system that allows you to
-              remotely view your site on any display. The system is made of{" "}
+            <span>Eyes On Site<span className="trade">&trade; </span></span> is a system that allows you to view your site on any display remotely. The system consists of EOS Field Devices, the Luau Cloud Server, and your Display.
               <span>EOS Field Devices</span>, the{" "}
               <span>Luau Cloud Server.</span>, and your <span>Display</span>
             </p>
@@ -100,7 +99,7 @@ export default function Home() {
                   <img src="./src/img/website-images//red-pipe.jpg" />
               </div>
               <p>
-              The EOS Field Network is secure and encrypted. These devices are either  uplinks with cameras or sensors. 
+              The EOS Field Network is secure and encrypted. These devices are either uplinks with cameras or sensors.
               </p>
               <button>
                 <Link href="/device">
@@ -116,10 +115,10 @@ export default function Home() {
                <img src="./src/img/website-images/turn-key.png" />
               </div>
               <p>
-              The displays are your 24/7 view to your site. Manage your site personally or have us manage it with our turn-key system. 
+              The displays are your 24/7 view of your site. Manage your site personally or have us manage it with our turn-key system.
               </p>
               <button>
-                <Link href="/device">
+                <Link href="/display">
                   <a>
                     Learn More
                   </a>
@@ -132,10 +131,10 @@ export default function Home() {
               <img src="./src/img/website-images/cloud-chart.jpg" />
               </div>
               <p>
-              Upload pictures and sensor data to the cloud using an EOS Cloud Link. EOS Private Cloud a server and storage per-configured by Luau Data Corp.
+              Upload pictures and sensor data to the cloud using an EOS Cloud Link. EOS Private Cloud is a server and storage pre-configured by Luau Data Corp.
               </p>
               <button>
-                <Link href="/device">
+                <Link href="/cloud">
                   <a>
                     Learn More
                   </a>
@@ -165,7 +164,7 @@ export default function Home() {
             </div>
             
             <p>
-                EOS Field devices are the first step in the system. These outdoor devices are either cameras or sensors , and communicate with each other. They take information via photos and sensory data, about your site.  
+            EOS Field devices are the first step in the system. These outdoor devices are either cameras or sensors and communicate with each other, and they take information via photos and sensory data about your site.
             </p>
           </div>
         </div>
@@ -182,7 +181,7 @@ export default function Home() {
             </div>
             
             <p>
-              Luau Cloud Server acts as a record of your site. The outdoor devices constantly record information, and with an uplink device all your sites information will be uploaded to the cloud. Your cloud can either be manage privately through your I.T service, or managed by us through our turn-key system.
+            Luau Cloud Server acts as a record of your site. The outdoor devices constantly record information, and with an uplink device, uplink devices will upload all your site's data to the cloud. Your cloud can be managed privately through your I.T service or by our turn-key system.
             </p>
         </div>
         </div>
@@ -198,7 +197,7 @@ export default function Home() {
             <img src="https://images.pexels.com/photos/269323/pexels-photo-269323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
             </div>
             <p>
-              The displays allow you to access all the photos and sensory data for the whole history of your site at any time.
+            The displays allow you to access all the photos and sensory data for the whole history of your site at any time.
             </p>
         </div>
       </div>

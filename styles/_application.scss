@@ -51,7 +51,7 @@
 .application{
     padding: 100px 0;
     &__example{
-        padding: 100px 0;
+        padding: 100px 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -59,12 +59,13 @@
     }
     &__example1{
         background: #008a99;
-        padding: 100px 0;
+        padding: 100px 50px;
     }
     &__summary{
         height: 40vh;
     }
     &__title{
+        padding: 0 50px;
         text-align: center;
         color: black;
         margin-bottom: 30px;

@@ -95,7 +95,7 @@ export default function Home() {
             re-seeding.
           </p>
           <p className="application__text">
-            This Eyes On Site camera was installed by the landowner. The images
+            This Eyes On Site&trade; camera was installed by the landowner. The images
             are hazy because the camera has been unattended for more than a year
             so the lens dusty from the earth moving. The field of view sways
             because the camera is mounted on a tree and the wind is blowing.
@@ -107,7 +107,7 @@ export default function Home() {
           <p className="application__text">
             Many projects require an environmental baseline before work begins,
             and possibly additional monitoring during and after completion. Eyes
-            On Sitetm is ideal for this application because these sites often
+            On Site&trade; is ideal for this application because these sites often
             have no services, and Eyes On Site doesn’t need any. A timelapse for
             any chosen time of day can be produced directly from the web
             interface.{" "}
@@ -117,7 +117,7 @@ export default function Home() {
           </div>
         </section>
         </div>
-        <section className="application__example1">
+        {/* <section className="application__example1">
           <div className="container">
           <div className="application__img2">
             <img src="../src/img/website-images/application/DeviceGraph.png" />
@@ -128,7 +128,7 @@ export default function Home() {
           </p>
           
           </div>
-        </section>
+        </section> */}
       <div className="container">
         <section className="application__example">
           <h2 className="application__title">Application: Rural Properties</h2>

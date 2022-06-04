@@ -20,8 +20,7 @@ export default function Home() {
             devices are solar powered except for the EOS Powered Uplink
           </h2>
           <p>
-            Device roles include camera, sensor, storage and uplink. Many Eyes
-            On Sitetm devices support multiple roles.{" "}
+            Device roles include uplink, camera, sensor, and camera. All devices are either industrial or hazardous.
           </p>
         </section>
         </div>
@@ -47,6 +46,9 @@ export default function Home() {
             trigger a camera, send a message, increment a counter, or simply be
             recorded for later use.{" "}
           </p>
+        </section>
+        <section className="device__sensor">
+          <h2>Specialty Sensors</h2>
           <p>
             Specialty sensor devices recognize people
             or vehicles passing by on a road or trail.{" "}
@@ -57,9 +59,6 @@ export default function Home() {
             such as this wind and weather sensor, used in a NASA project to
             study air traffic control for urban delivery drones.{" "}
           </p>
-        </section>
-        <section className="device__sensor">
-          <h2>Specialty Sensors</h2>
           <p>
             Do you have a specialty sensor requirement? EOS devices can
             interface to a wide variety of external sensors and can synthesize
@@ -71,6 +70,7 @@ export default function Home() {
         </section>
         <section className="device__sensor">
           <h2>Uplink Devices</h2>
+          <div className="device__img"><img src="../src/img/website-images/red-pipe.jpg"/></div>
           <p>
             Uplink devices connect an EOS Field Network to the cloud. For speed
             and redundancy, an EOS Field Network can have any number of Uplink

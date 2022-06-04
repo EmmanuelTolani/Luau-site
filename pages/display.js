@@ -26,7 +26,7 @@ export default function Home() {
         <section className="device__camera">
           <h2>Web Devices</h2>
           <div className="device__img">
-            <img src="../src/img/website-images/display-server.png" />
+            <img src="https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
           </div>
           <p>
             Securely log-in on your device to have full access on your site. Along with all the pictures and date of your site.

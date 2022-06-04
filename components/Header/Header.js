@@ -4,11 +4,32 @@ import SubHeader from "./SubHeader/SubHeader";
 import { useRouter } from "next/dist/client/router";
 
 export default function Header() {
-  const [isClicked, setClicked] = useState(false);
-  const router = useRouter();
+  const [isActive, setActive] = useState(false);
   const toggleClass = () => {
-    setActive(!isClicked);
+    setActive(!isActive);
   };
+  const toggleIcon = () => {
+    if (isActive) {
+      return (
+        <>
+          <i
+            className="fa-solid fa-rectangle-xmark"
+            style={{
+              color: "red",
+              fontSize: "3rem",
+            }}
+          ></i>
+        </>
+      );
+    } else {
+      return (
+        <>
+          <i className="fa-solid fa-bars"></i>
+        </>
+      );
+    }
+  };
+  const router = useRouter();
   return (
     <>
       {/* <SubHeader/> */}
@@ -40,13 +61,13 @@ export default function Header() {
                 </a>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/eyesonsite">
                 <a className={router.pathname == "/eyesonsite" ? "active" : ""}>
                   Eyes on Site
                 </a>
               </Link>
-            </li>
+            </li> */}
             {/* <li>
                 <a>
                   Luau<i className="fa-solid fa-chevron-down"></i>
@@ -71,13 +92,15 @@ export default function Header() {
               </ul>
             </li> */}
             <li>
-                <a>
-                  System <i className="fa-solid fa-chevron-down"></i>
+              <Link href="/eyesonsite">
+              <a className={router.pathname == "/eyesonsite" ? "active" : ""} >
+                  Eyes On Site<i className="fa-solid fa-chevron-down"></i>
                 </a>
+              </Link>
               <ul className="header1__collections-nav--dropdown active">
               <li >
                   <Link href="/system">
-                    <a className={router.pathname == "/system" ? "active" : ""}>Overview</a>
+                    <a className={router.pathname == "/system" ? "active" : ""}>System</a>
                   </Link>
                 </li>
                 <li>
@@ -132,54 +155,68 @@ export default function Header() {
           </ul>
           {/* The header link section ends */}
           {/* The button section starts */}
-          <div className="header1__menu-btn-container">
-            <button type="" className="header1__menu-btn" onClick={toggleClass}>
-              MENU
-            </button>
+          <div className="mobile" onClick={toggleClass}>
+            {toggleIcon()}
           </div>
-          {/* The button section ends */}
         </div>
       </header>
       {/* The Mobile menu start */}
-      <div className="header1__collections-mobile-nav active">
-        <div>
-          <button type="" className="header1__menu-close">
-            <i className="fas fa-times"></i>
-          </button>
-        </div>
-        <ul>
+      <ul
+        className={
+          isActive
+            ? "header1__collections-nav-mobile show"
+            : "header1__collections-nav-mobile"
+        }
+      >
+        <li>
+              <Link href="/">
+                <a className={router.pathname == "/" ? "active" : ""}>
+                  Home
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/eyesonsite">
+              <a className={router.pathname == "/eyesonsite" ? "active" : ""} >
+                  Eyes On Site
+                </a>
+              </Link>
+        </li>
+        <li >
+                  <Link href="/system">
+                    <a className={router.pathname == "/system" ? "active" : ""}>System</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/cloud">
+                    <a className={router.pathname == "/cloud" ? "active" : ""}>Cloud Server</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/display">
+                    <a className={router.pathname == "/display" ? "active" : ""}>Display</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/device">
+                    <a className={router.pathname == "/device" ? "active" : ""}>Devices and sensors</a>
+                  </Link>
+                </li>
           <li>
-            <Link href="/eyesonsite">
-              <a>Overview</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/system">
-              <a>System</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/products">
-              <a>Products</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/case-study">
-              <a>Case Study</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact">
-              <a>Contact</a>
-            </Link>
-          </li>
-        </ul>
-      </div>
+              <Link href="/products">
+                <a className={router.pathname == "/products" ? "active" : ""}>
+                  Products
+                </a>
+              </Link>
+            </li>
+            <li>
+          <Link href="/contact">
+            <a className={router.pathname == "/contact" ? "active" : ""}>
+              Contact
+            </a>
+          </Link>
+        </li>
+      </ul>
       {/* The Mobile Menu End */}
     </>
   );

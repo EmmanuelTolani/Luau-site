@@ -35,7 +35,7 @@
 }
 
 .system-overview{
-    padding: 118px 0 95px;
+    padding: 118px 50px 95px;
     // height: 80vh;
     .container{
         max-width: 1170px;
@@ -142,7 +142,7 @@
     }
    
     .systemdetails{
-        padding: 118px 0 95px;
+        padding: 118px 50px 95px;
         .container{
             max-width: 1170px;
             margin: auto;
@@ -150,8 +150,8 @@
         .systemdetails-title{
             margin-bottom: 1rem;
             h2{
-                font-size: 2.5rem;
-             line-height: 42px;
+                font-size: clamp(1.8rem, 1.5273rem + 0.9091vw, 2.3rem);
+            //  line-height: 42px;
              color: #027582;
              margin: 0 0 15px;
              font-weight: 600;
@@ -160,8 +160,9 @@
             }
             p{
                 text-align: center;
-                font-size: 1.2rem;
-                line-height: 24px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 200%;
             }
             span{
                 font-weight: 100;
@@ -183,19 +184,15 @@
         }
         .systemdetails-container{
             padding: 50px 0;
-            max-width: none;
-        display: -ms-grid;
-        display: grid;
-        -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-        -ms-flex-pack: center;
-        justify-content: center;
-        gap: 0 1rem;
+           display: flex;
+           width: 100%;
+          gap: 20px;
         }
         .systemdetails-detail{
-            padding: 100px 0;
+            padding: 100px 50px;
             display: flex;
             flex-direction: column;
+            justify-content: center;
             align-items: center;
             h2{
                 font-size: 2rem;
@@ -213,12 +210,10 @@
                 font-weight: 500;
             }
             .systemdetails-detail-img{
-                height: 350px;
-                width: 350px;
+
                 img{
-                    object-fit: contain;
-                    height: 350px;
-                    width: 350px;
+                    object-fit: cover;
+                    width: 300px;
                 }
             }
            
@@ -338,7 +333,7 @@
             justify-content: space-between;
         }
         .systemfull-part{
-            padding: 50px 0;
+            padding: 50px 50px;
             display: flex;
             // justify-content: space-between; 
             gap: 100px;
@@ -375,3 +370,25 @@
             }
         }
     }
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1140px) {
+    .systemdetails-container{
+        flex-wrap: wrap;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+@media screen and (max-width: 1024px){
+    
+}
